@@ -186,7 +186,6 @@ h1 {
   min-height: 100%;
   height: auto !important; /* for IE 6 */
   height: 100%;  /* for IE 6 */
-  height: 100%;
   margin: auto;
   width: 930px;
   clear: both;
