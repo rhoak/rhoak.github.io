@@ -1,81 +1,567 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/home.css" />
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300,400' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
+<html lang="en">
 
-  <div id="navbar">
-    <div id="nav">
-      <div id="logo">
-        <a href="index.html" title="Home"> <h1>  R | H </h1> </a>
-        <p> graphic design & front end developer </p>
-      </div>
+<head>
 
-      <ul id="navigation">
-        <li id="li_home"> <a href="index.html" title="Home"> Home </a></li>
-        <li id="li_work"> <a href="work.html" title="Work"> Work </a></li>
-        <li id="li_about"> <a href="about.html" title="About"> About </a></li>
-      </ul>
-    </div> 
-  </div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="portfolio" content="">
+    <meta name="rachael" content="">
 
-  <div class="welcome">
-     <div class="sky"></div>
-      <div class="mtbg"></div>
-          <div class="stars1"></div>
-            <div class="stars2"></div>
-              <div class="stars3"></div>
+    <title>r.h.design</title>
 
+    <link rel="icon" type="img/png" href="img/favicon.png" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:900,400,100' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!--********************** Nav *****************--> 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> 
+
+      <nav class="navbar navbar-default navbar-fixed-top page-scroll" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"> <img src="img/logo.png" class="logo" alt="logo"> 
+                  <p class="logo-slogan"> Rachael Hoak </p>
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse  navbar-right" id="navbar-collapse">
+              <ul class="nav navbar-nav navbar-default">
+                <li><a href="#intro" class="page-scroll">Welcome</a></li>
+                <li><a href="#work" class="page-scroll">Work</a></li>
+                <li><a href="#about" class="page-scroll">About</a></li>
+                <li><a href="#skills" class="page-scroll">Skills</a></li>
+                <li><a href="#contact" class="page-scroll">Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container/ -->
+    </nav>
+<!--********************** Heading *****************-->
+
+
+  <div class="heading">
+    <div class="mt"></div>
     <div class="motion">
-      <h1>
-        Welcome to my portfolio. <br> 
-        I am a graphic designer, illustrator <br> & front-end developer. 
-      </h1> 
+      <!-- <h1> <img src="img/biglogo5.png" class="biglogo" alt="biglogo"></h1> 
+      <h2> r.h. designs </h2> -->
+     <h2> Designer + Developer </h2>
     </div>
-  </div>
+  </div> <!--end of heading-->
+
+    
+
+<!--********************** Welcome *****************--> 
+
+ <section id="intro" class="intro-section"> 
+  <div class="welcome">
+    <h3>Welcome</h3> 
+      <div class="row">
+       <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+        <p> Hi! I'm Rachael and you have successfully reached my portfolio! I am a digital designer and front end developer with a passion for illustration and data visualization. </p>
+      </div>
+     </div>
+  </div> <!--end of welcome-->
+</section><!-- / end of intro section -->
+ 
+
+<!--********************** Portfolio *****************--> 
+
+<section id="work" class="work-section"> 
+  <div class="container portfolio">
+    <div class="row">
+    <h3> Work </h3> <!-- /section portfolio -->
+   
+    <ul class="thumbnails">
+      
+          <ul class="thumbnails">
+      
+      
+      <!--*******  id-3 *********--> 
+      <li data-type="print" data-id="id-3" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="print1">
+          <img class="img-responsive work-pic" src="img/dragoncurve.png" alt="">
+            
+            <div class="caption">
+              <h4>Dragon Curve</h4>
+              <h5>Octoboer 2014</h5>
+               <p>Web design / illustration </p>
+               <!-- Button trigger modal -->
+               <a href="#" class="cap-button"data-toggle="modal" data-target="#id3" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+              
+            </div>
+      </li>
+
+       <!-- id-3 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id3" tabindex="-1" role="dialog" aria-labelledby="id3Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Dragon Curve</h4>
+              </div>
+              <div class="modal-body">
+                <p>Dragon Curve is entrepreneurship network for young leaders. I redesigned their site using the red from their logo. I created the mission statement icon and the various patterns used throughout the mockup. </p>
+              </div> 
+              <img src="img/dragoncuve-final.png" class="modal-img img-responsive img-center" alt="dragoncurve">
+            </div>
+          </div>
+        </div> 
+
+      <!--*******  id-4 *********--> 
+      <li data-type="ui" data-id="id-4" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="ui2">
+          <img class="img-responsive work-pic" src="img/financeapp2.png" alt="">
+            
+            <div class="caption">
+              <h4>Finance Tracking App</h4>
+              <h5>October 2014</h5>
+               <p>App Design / Data Visualization</p>
+               <!-- Button trigger modal -->
+                <a href="#" class="cap-button"data-toggle="modal" data-target="#id4" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+            </div>
+       </li>
+        
+       <!-- id-4 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id4" tabindex="-1" role="dialog" aria-labelledby="id4Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Finance Tracking App</h4>
+              </div>
+              <div class="modal-body">
+                <p>The personal finance tracking app was a vision I had to make budgeting more fun and beautiful. I wanted bright and vibrant colors to personally help distract me from financial planning. Additionally I created all of the svg graphs and charts. It's designed so the first thing you notice are upcoming bills for the month, but then it seamlessly transitions into budgeting goals. </p>
+              </div> 
+              <img src="img/financeapp_final.png" class="modal-img img-responsive img-center" alt="typing">
+            </div>
+          </div>
+        </div> 
+
+      <!--*******  id-5 *********--> 
+      <li data-type="ui" data-id="id-5" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="ui3">
+          <img class="img-responsive work-pic" src="img/manotype.png" alt="">
+            
+            <div class="caption">
+              <h4>ManoType</h4>
+              <h5>September 2014</h5>
+               <p>web design / illustration </p>
+               <!-- Button trigger modal -->
+                <a href="#" class="cap-button"data-toggle="modal" data-target="#id5" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+            </div>   
+       </li>
+        
+       <!-- id-5 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id5" tabindex="-1" role="dialog" aria-labelledby="id5Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">ManoType</h4>
+              </div>
+              <div class="modal-body">
+                <p> ManoType is a program created to help people learn to type and reach their individual typing goals. The site is designed to be minimalistic since the intended use is for long periods of typing. The darker color scheme is used so that it is slightly easier on the eyes. In addition to designing the sites look and feel I also created the svg hands, keyboard, and geometric start page.</p>
+              </div> 
+              <img src="img/typing-final.png" class="modal-img img-responsive img-center" alt="finance">
+            </div>
+          </div>
+        </div> 
+
+      <!--*******  id-6  *********--> 
+      <li data-type="ui" data-id="id-6" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="ui4">
+          <img class="img-responsive work-pic" src="img/kikiriki.png" alt="">
+            
+            <div class="caption">
+              <h4>Kiki Riki </h4>
+              <h5>September 2014</h5>
+               <p>webdesign / development </p>
+               <!-- Button trigger modal -->
+                <a href="#" class="cap-button"data-toggle="modal" data-target="#id6" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+               <!--<a href="http://kikiriki-usa.com" class="cap-button" rel="tooltip" title="Visit Website" ><img src="img/white_arrow.png" alt="webpage"></a> -->
+            </div>   
+       </li>
+        
+       <!-- id-6 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id6" tabindex="-1" role="dialog" aria-labelledby="id6Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Kiki Riki</h4>
+              </div>
+              <div class="modal-body">
+                <p>KikiRiki is a turkish fashion company that is opening a new store in NYC and needed a USA website. I designed the layout and then developed a template using bootstrap for them to add/change the content with their internal team. I used bold black lines to compliment the KikiRiki logo, while not distracting from the images in their lookbook. </p>
+              </div>
+              <img src="img/kikiriki-final.png" class="modal-img img-responsive img-center" alt="finance-app"> 
+            </div>
+          </div>
+        </div> 
+
+
+      <!--*******  id-7 *********--> 
+      <li data-type="presentation" data-id="id-7" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="presentation2">
+          <img class="img-responsive work-pic" src="img/greencity.png" alt="">
+            
+            <div class="caption">
+              <h4>Green City Mockup</h4>
+              <h5>March 2014</h5>
+               <p>Web Design / Logo Design</p>
+               <!-- Button trigger modal -->
+                <a href="#" class="cap-button"data-toggle="modal" data-target="#id7" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+            </div>  
+       </li>
+        
+       <!-- id-7 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id7" tabindex="-1" role="dialog" aria-labelledby="id7Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Green City Mockup</h4>
+              </div>
+              <div class="modal-body">
+                <p>The mockup of a website's first page. Using just black and white with a splash of color, the mockup stays minimalistic. The top picture of a cityscape is overlaid with patterns to create a stain glass look. This visual is intended to give the mockup a level of detail and class.</p>
+              </div> 
+              <img src="img/greencity-final.png" class="modal-img img-responsive img-center" alt="greencity">
+            </div>
+          </div>
+        </div> 
+
+
+      <!--*******  id-8 *********--> 
+      <li data-type="presentation" data-id="id-8" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="presentation3">
+          <img class="img-responsive work-pic" src="img/energy.png" alt="">
+            
+            <div class="caption">
+              <h4>Energy Presentation</h4>
+              <h5>January 2013</h5>
+               <p>Presentation design / Illustration</p>
+               <!-- Button trigger modal -->
+                <a href="#" class="cap-button"data-toggle="modal" data-target="#id8" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+            </div>  
+       </li>
+        
+       <!-- id-8 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id8" tabindex="-1" role="dialog" aria-labelledby="id8Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Energy Presentation</h4>
+              </div>
+              <div class="modal-body">
+                <p>Created as a mock-up presentation for an energy company. The prospective client was looking for slides that could capture the look and feel of clean, sustainable energy. Coming into a new and exciting market with many possibilities, I chose bright, vibrant colors. I overlaid graphs and information on high resolution pictures, a tribute to the classic idea of sustainability: reuse.</p>
+              </div> 
+              <img src="img/energy-final.png" class="modal-img img-responsive img-center" alt="energy">
+            </div>
+          </div>
+        </div> 
+
+
+      <!--*******  id-9 *********--> 
+      <li data-type="presentation" data-id="id-9" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="presentation4">
+          <img class="img-responsive work-pic" src="img/dynamic.png" alt="">
+            
+            <div class="caption">
+              <h4>Dynamic Design</h4>
+              <h5>August 2012</h5>
+               <p>Web design / Illustration </p>
+               <!-- Button trigger modal -->
+                <a href="#" class="cap-button"data-toggle="modal" data-target="#id9" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+            </div>   
+       </li>
+        
+       <!-- id-9 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id9" tabindex="-1" role="dialog" aria-labelledby="id9Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Dynamic Design</h4>
+              </div>
+              <div class="modal-body">
+                <p>An accordion style slider revealing four illustrations. Each illustration is intended to correspond with the clients four word motto: Educate, Lead, Connect and Inspire. The concept was developed around the idea of silhouettes, where every silhouette is paired with a highly detailed background.
+                </p>
+              </div> 
+              <img src="img/dynamic-final.png" class="modal-img img-responsive img-center" alt="dataviz">  
+            </div>
+          </div>
+        </div> 
+
+
+     <!--*******  id-10 *********--> 
+     <li data-type="presentation" data-id="id-10" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="presentation5">
+          <img class="img-responsive work-pic" src="img/dataviz.png" alt="">
+            
+            <div class="caption">
+              <h4>Data Visualization</h4>
+              <h5>August 2012</h5>
+               <p>presentation design / illustration </p>
+               <!-- Button trigger modal -->
+                <a href="#" class="cap-button"data-toggle="modal" data-target="#id10" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+            </div>   
+       </li>
+        
+       <!-- id-10 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id10" tabindex="-1" role="dialog" aria-labelledby="id10Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Data Visualization</h4>
+              </div>
+              <div class="modal-body">
+                <p>A presentation about the visualization of large data. The illustrations are used to show the impact visuals can have when paired with data.</p>
+              </div>
+              <img src="img/dataviz-final.png" class="modal-img img-responsive img-center" alt="dynamic-final">  
+            </div>
+          </div>
+        </div> 
+
+     <!--*******  id-11 *********--> 
+      <li data-type="presentation" data-id="id-11" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="presentation6">
+          <img class="img-responsive work-pic" src="img/asteroid1.png" alt="">
+            
+            <div class="caption">
+              <h4>Asteroid Mining</h4>
+              <h5>July 2012</h5>
+               <p>Presentation design / illustration</p>
+               <!-- Button trigger modal -->
+                <a href="#" class="cap-button"data-toggle="modal" data-target="#id11" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+            </div>    
+       </li>
+        
+       <!-- id-11 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id11" tabindex="-1" role="dialog" aria-labelledby="id11Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Asteroid Mining</h4>
+              </div>
+              <div class="modal-body">
+                <p>A presentation about mining in space. Crafted to educate about the future possibilities of mining asteroids for resources. Youthful colors are intended to give a perception of playfulness, while the detailed asteroids add a level of realism. The intended result is visual conversation juxtaposing reality with possibility.</p>
+              </div>
+              <img src="img/asteroid-mining.png" class="modal-img img-responsive img-center" alt="asteroid-mining"> 
+            </div>
+          </div>
+        </div> 
+
+       <!--*******  id-12 *********--> 
+       <li data-type="print" data-id="id12" class="col-lg-3 col-md-4 col-xs-6 thumby">
+        <div class="thumbnail" id="print2">
+          <img class="img-responsive work-pic" src="img/gongora.png" alt="">
+            
+            <div class="caption">
+              <h4>Gongora Wine</h4>
+              <h5>March 2010</h5>
+               <p>Packaging design / illustration</p>
+               <!-- Button trigger modal -->
+                <a href="#" class="cap-button"data-toggle="modal" data-target="#id12" rel="tooltip" title="Preview"><img src="img/white_expand.png" alt="expand"></a> 
+            </div>    
+       </li>
+        
+       <!-- id-12 Modal -->
+        <div class="modal fade bs-example-modal-lg" id="id12" tabindex="-1" role="dialog" aria-labelledby="id12Label" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">Gongora</h4>
+              </div>
+              <div class="modal-body">
+                <p>A concept for the label of an innovative start up winery, Gongora. The project consisted of displaying modern art on a wine bottle. Greatly influenced by the Russian abstractionist, Kandinsky, the label is transparent with gradient overlays. As the wine is consumed, light shines through the label morphing the look and feel of the wine bottle. It is quite literally "the art of consumption".</p>
+                <img src="img/gongora-final.png" class="modal-img img-responsive img-center" alt="gongora">
+              </div> 
+            </div>
+          </div>
+        </div> 
+
+    </ul>
+
+    </div>
+  </div>  <!--end of container-->
+</section><!-- / end of work section -->
+
+<!--********************** About Me *****************--> 
+<section id="about" class="about-section">  
+ <div class="about">
+    <h3> About Me </h3> 
+      <div class="row">
+       <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+        <p> I started designing with Crayola’s 24 pack, but eventually upgraded to a computer. As KidPix is no longer a favorable software platform, I prefer to design with the Adobe Suite Collection. I enjoy working on engaging projects with fun and interesting people. <br> <br>
+        Currently, I am located in New York City working as a digital designer / front end developer. I got my start creating brand identity and sales presentations for startup companies. As a designer / developer I work to marry the visuals with the content and the beauty with the function.
+ </p>
+       </div> <!--end row-->
+      </div> <!--end col-->
+        
+        <div class="row">
+         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2">
+         
+        <ul class="about-icons">  
+         <li> 
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper item1">
+              <div class="front">
+              <img class="img-circle img-responsive img-center" src="img/graph2.png" alt="">
+              </div>
+              <div class="back">
+              <div class="back-panel"> <p> Beautifully <br> Visualizes <br> Data </p> </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+         <li>  
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper item2">
+              <div class="front">
+              <img class="img-circle img-responsive img-center" src="img/curiosity.png" alt="">
+              </div>
+              <div class="back">
+              <div class="back-panel"> <p> Explores <br> New <br> Technologies </p> </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+         <li>
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper item3">
+              <div class="front">
+              <img class="img-circle img-responsive img-center" src="img/build.png" alt="">
+              </div>
+              <div class="back">
+              <div class="back-panel"> <p> Builds <br> Functional <br> Designs </p> </div>
+              </div>
+             </div>
+           </div>
+          </li>
+
+        <li>
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper item4">
+              <div class="front">
+              <img class="img-circle img-responsive img-center" src="img/artistic.png" alt="">
+              </div>
+              <div class="back">
+              <div class="back-panel"> <p> Makes <br> Stuff <br> Pretty </p> </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+
+      </ul>
+              
+        </div> <!--end of row-->
+      </div> <!--end of col-->
+
+  </div> <!--end of about-->
+</section><!-- / end of about section -->
+
+
+<!--********************** Skills *****************--> 
   
-  <div id="work"> 
-    <div id="recentwork">
-      <h2><span> Recent Work <span></h2>
-
-      <div class="portfolio" id="greenmockup"> 
-        <a href="work/greenmockup.html" title=""> <img src="images/green_icon.png" height="175" width="175"> </a>
+<section id="skills" class="skills-section">  
+ <div class="skills">
+    <h3> Skills </h3> <!-- /section skills -->
+      <div class="row">
+       <div class="col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-1">
+            <div class="graphbar html">html/html5</div>
+            <div class="graphbar css">css/css3</div>
+            <div class="graphbar javascript">javascript/jquery</div>
+            <div class="graphbar photoshop">photohop</div>
+            <div class="graphbar illustrator">illustrator</div>
       </div>
+     </div>
+  </div> <!--end of skills-->
+</section><!-- / end of skills section -->
 
-      <div class="portfolio" id="brightgraph">
-        <a href="work/energy.html" title=""> <img src="images/brightgraph_icon.png" height="175" width="175"> </a>
+<!--********************** Contact *****************-->
+
+<section id="contact" class="contact-section">   
+  <div class="contact"> 
+    <h3> Contact Me </h3> <!-- /section contact me -->
+     <div class="row">
+      <div class="col-lg-4 col-lg-offset-4 col-md-5 col-md-offset-4 col-sm-6 col-sm-offset-4 col-xs-6 col-xs-offset-3">
+        <ul class="list-inline item-details socialmedia">
+            <li class="social"><a href="mailto:Rachaelhoak@gmail.com.com"><i class="fa fa-envelope"></i></a></li>
+            <li class="social"><a href="#"><i class="fa fa-github-square"></i></a></li> 
+            <li class="social"><a href="www.linkedin.com/in/rachaelhoak"><i class="fa fa-linkedin-square"></i></a></li>
+            <!-- <li class="social"><a href="#"><i class="fa fa-behance-square"></i></a></li> -->
+        </ul>
       </div>
-
-      <div class="portfolio" id="graph">
-        <a href="work/dataviz.html" title=""> <img src="images/graph_icon.png" height="175" width="175"> </a>
-      </div>
-
-      <div class="portfolio" id="dynamic"> 
-        <a href="work/dynamic.html" title=""> <img src="images/couple_icon.png" height="175" width="175"> </a> 
-      </div>
-
-       <div class="portfolio" id="miner"> 
-        <a href="work/asteroid.html" title=""> <img src="images/miner_icon.png" height="175" width="175"> </a>
-      </div>
-
     </div>
   </div>
-
-  <div id="footer">
-  <div id="footerwrap">
-     <p> &copy; 2014 R&#8202;|&#8202;H All Right Reserved. </p> 
-  </div>
-  </div>
-
-  <script type ="text/javascript" src="libraries/jquery.min.js"></script>
-  <script type ="text/javascript" src="js/home.js"></script>
+</section><!-- / end of contact section -->
 
 
-  </body>
 
+<!--********************** Footer *****************-->
+<div class="footer"> 
+  <p> RachaeHoak@gmail | copyright Rachael Hoak </p>
+</div>
+
+<!--********************** Script *****************--> 
+
+     <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Scroll Nav -->
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/scripts.js"></script>
+
+    <!-- script -->
+    <script>
+
+
+
+
+    </script>
+
+</body>
 </html>
+
+
+
+
