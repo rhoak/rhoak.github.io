@@ -368,11 +368,17 @@ text-transform: uppercase;
 /* entire container, keeps perspective */
 .flip-container {
   perspective: 1000;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
 }
 
 /* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transition: rotateY(180deg);
+  -o-transition: rotateY(180deg);
 }
 
 .flip-container, .front, .back {
@@ -383,13 +389,23 @@ text-transform: uppercase;
 /* flip speed goes here */
 .flipper {
   transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-sytle: preserve-3d;
+  -ms-transition: preserve-3d;
+  -o-transition: preserve-3d;
   position: relative;
 }
 
 /* hide back of pane during swap */
 .front, .back {
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -403,11 +419,20 @@ text-transform: uppercase;
   z-index: 2;
   /* for firefox 31 */
   transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -m-transform: rotateY(0deg);
 }
+
 
 /* back, initially hidden pane */
 .back {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -m-transform: rotateY(180deg);
 }
 
 /* SKILLS
