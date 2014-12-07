@@ -29,6 +29,10 @@ $(window).scroll(function() {
   });
 });
 
+
+// Map from image-url to 'true'.  Indicates that we've already loaded an Image.
+var imageCache = {};
+
 // Dynamically loads images for modals.
 //
 // This expects there to be an <a> element with the following properties:
@@ -41,12 +45,15 @@ $('.zmdl-button').click(function() {
   var $b = $(this);
   var modalId = $b.attr('data-target');
   var imgUrl = $b.attr('img-url');
-  var imgAlt = $b.attr('img-alt');
-  var img = document.createElement("img");
-  img.setAttribute('src', imgUrl);
-  img.setAttribute('class', 'modal-img img-responsive img-center');
-  img.setAttribute('alt', imgAlt);
-  $(modalId + ' .modal-content').append(img)
+  if (!imageCache[imgUrl]) {
+    var imgAlt = $b.attr('img-alt');
+    var img = document.createElement("img");
+    img.setAttribute('src', imgUrl);
+    img.setAttribute('class', 'modal-img img-responsive img-center');
+    img.setAttribute('alt', imgAlt);
+    $(modalId + ' .modal-content').append(img)
+    imageCache[imgUrl] = true;
+  }
   $(modalId).modal();
 });
 
