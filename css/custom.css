@@ -120,30 +120,6 @@ h2 {
   } 
 }
 
-/* WELCOME
--------------------------------------------------- */
-
-.welcome {
-  width: 100%; 
-  clear: both;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.welcome h3 { 
-  text-align: center;
-  font-size: 3em;
-  font-weight: 100;
-  text-transform: uppercase;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.welcome p { 
-  font-size: 1.5em;
-  line-height: 2.6em;
-}
-
 /* PORTFOLIO
 -------------------------------------------------- */
 .portfolio { 
