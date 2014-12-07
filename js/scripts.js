@@ -30,9 +30,9 @@ $(window).scroll(function() {
 });
 
 
- /* $('.social').hover(function() {
-    $(this).toggleClass("pulse");
-  }); */
+/* $('.social').hover(function() {
+  $(this).toggleClass("pulse");
+}); */
 
 $('.cap-button').hover(function() {
   $(this).toggleClass("pulse");
