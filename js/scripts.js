@@ -1,5 +1,6 @@
 (function($){
 
+// Function to set hover behavior for thumbnails
 var setThumby = function(e) {
   $('.thumby').on('mouseenter', function(e) {
     var $k = $(this).find('.caption');
@@ -21,7 +22,6 @@ $('.caption').addClass('hidden-cap');
 $(window).scroll(function() {
   $('.graphbar').each(function(){
     var imagePos = $(this).offset().top;
-
     var topOfWindow = $(window).scrollTop();
     if (imagePos < topOfWindow+500) {
       $(this).addClass('stretchRight');
@@ -56,10 +56,6 @@ $('.zmdl-button').click(function() {
   }
   $(modalId).modal();
 });
-
-/* $('.social').hover(function() {
-  $(this).toggleClass("pulse");
-}); */
 
 $('.cap-button').hover(function() {
   $(this).toggleClass('pulse');

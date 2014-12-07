@@ -6,7 +6,7 @@ body {
     height: 100%;
     font-family: "Open Sans";
     font-size: 12px;
-    font-weight: 300; 
+    font-weight: 300;
     padding: 0;
     margin: 0;
 }
@@ -16,7 +16,7 @@ body {
     height: 100%;
 }
 
-ul { 
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -24,7 +24,6 @@ ul {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-
 .navbar {
   height: 60px;
   font-family: Roboto;
@@ -33,14 +32,13 @@ ul {
   text-transform: uppercase;
   background-color: white;
   padding-top: 5px;
-
 }
 
 .navbar-default {
   background-color: white;
 }
 
-.logo-slogan { 
+.logo-slogan {
   float: right;
   font-size: .8em;
   font-weight: 100;
@@ -50,7 +48,7 @@ ul {
 }
 
 .logo {
-  height: 40px; 
+  height: 40px;
   width: auto;
   margin-top: -10px;
 }
@@ -82,11 +80,11 @@ ul {
   z-index: 2;
 }
 
-.biglogo { 
-padding-top: 5px;
-width: 100px;
-height: auto;
-margin-right: 15px;
+.biglogo {
+  padding-top: 5px;
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
 }
 
 h2 { 
@@ -144,7 +142,6 @@ h2 {
 .welcome p { 
   font-size: 1.5em;
   line-height: 2.6em;
-
 }
 
 /* PORTFOLIO
@@ -181,15 +178,15 @@ h2 {
   margin: 0px;
   padding: 0px;
   -webkit-border-radius: 0 !important;
-    -moz-border-radius: 0 !important;
-      border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
   background-color: transparent;
 }
 
 
 .hidden-cap {
- overflow-y: hidden;
- margin-top: 300px;
+  overflow-y: hidden;
+  margin-top: 300px;
 }
 
 .thumby {
@@ -264,7 +261,7 @@ h2 {
 }
 
 .modal {
-background-color: rgba(0,0,0,.7);
+  background-color: rgba(0,0,0,.7);
 }
 
 .modal-header {
@@ -519,11 +516,11 @@ text-transform: uppercase;
   display: inline-block;
   line-height: 75px;
   -webkit-transition: background-color .7s ease-in-out;
-    -moz-transition: background-color .7s ease-in-out;
-    -ms-transition: background-color .7s ease-in-out;
-    -o-transition: background-color .7s ease-in-out;
-    transition: background-color .7s ease-in-out;
-    }
+  -moz-transition: background-color .7s ease-in-out;
+  -ms-transition: background-color .7s ease-in-out;
+  -o-transition: background-color .7s ease-in-out;
+  transition: background-color .7s ease-in-out;
+}
 
 .fa { 
   padding: 0;
@@ -623,21 +620,17 @@ text-transform: uppercase;
   }
 
   .social { 
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  margin-bottom: 10px;
-  margin-right: 15px !important; 
-  margin-left: 15px !important;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    margin-right: 15px !important; 
+    margin-left: 15px !important;
   }
-
-
-
 }
 
 
 @media(max-width:767px) {
-
   .heading { 
     height: 500px;
   }
@@ -686,7 +679,5 @@ text-transform: uppercase;
   margin-right: 1px !important; 
   margin-left: 1px !important;
   }
-
-
 }
 
