@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Bloomingdale's Test" content="">
+  <meta name="rachael" content="">
+
+  <title>Microsite</title>
+
+  <!-- Custom CSS -->
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
+</head>
+
+<body> 
+
+  <!--********************** Header *****************--> 
+  <header class="myheader">
+    <div class="bg"></div> 
+    <h1> This is a Header </h1>
+  </header>
+
+  <!--********************** Nav *****************--> 
+  <nav id="stickyheader">
+    <div class="container">
+      <ul class="navigation">
+        <li><a href="#page1" data-scroll-nav="0">Section 1</a></li>
+        <li><a href="#page2" data-scroll-nav="1">Section 2</a></li>
+        <li><a href="#page3" data-scroll-nav="2">Section 3</a></li>
+        <li><a href="#page4" data-scroll-nav="3">Section 4</a></li>
+      </ul>
+      <div class="social_media">
+        <a href="https://www.pinterest.com/pin/create/button/"><li class="social"><i class="fa fa-pinterest-p"></i></li></a>
+        <a href="https://twitter.com/share"><li class="social"><i class="fa fa-twitter"></i></li></a>
+      </div>
+    </div>
+  </nav>
+
+  <!--********************** Page-1 *****************--> 
+  <section class="page" data-scroll-index="0">
+    <div id="page1"></div>
+    <div class="container">
+      <h2> Page 1 </h2>
+    </div>
+  </section>
+
+  <!--********************** Page-2 *****************--> 
+  <section class="page" data-scroll-index="1">
+    <div id="page2"></div>
+    <div class="container">
+      <h2> Page 2 </h2>
+      
+      <div class="slideshow">
+        <div id="slides">
+          <div><img src="imgs/slide1.png" alt="image"></div>
+          <div><img src="imgs/slide2.png" alt="image"></div>
+          <div><img src="imgs/slide3.png" alt="image"></div>
+          <div><img src="imgs/slide4.png" alt="image"></div>
+        </div>
+      </div>
+
+    </div>
+  </section> 
+
+  <!--********************** Page-3 *****************--> 
+  <section class="page" data-scroll-index="2">
+    <div id="page3"></div>
+    <div class="container">
+      <h2> Page 3 </h2> 
+    </div> 
+  </section>
+
+  <!--********************** Page-4 *****************-->
+  <section class="page" data-scroll-index="3">
+    <div id="page4"></div>
+    <div class="container">
+      <h2> Page 4 </h2>
+    </div>
+    </section>
+
+  <!--********************** Footer *****************-->
+  <div class="footer"> 
+    <div class="footer_bg"></div> 
+    <h1> This is a footer </h1>
+  </div>
+
+  <!--********************** Scripts *****************--> 
+  
+  <!-- jQuery Version 1.11.0 -->
+  <script src="js/jquery.min.js" type="text/javascript"></script>
+
+  <!-- Scroll Nav -->
+  <script src="js/scrollIt.js" type="text/javascript"></script>
+
+  <!-- SlideShow -->
+  <script src="js/jquery.slides.js" type="text/javascript"></script>
+
+  <!-- Pinterest -->
+  <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+
+  <!-- Custom JavaScript-->
+  <script>
+    $(function(){
+        var stickyHeaderTop = $('#stickyheader').offset().top;
+        $(window).scroll(function(){
+          if( $(window).scrollTop() >= stickyHeaderTop ) {
+              $('#stickyheader').css({position: 'fixed', top: '0px',});
+            } else {
+              $('#stickyheader').css({position: 'static', top: '0px',});
+            }
+          });
+      });
+
+    $(function(){
+      $.scrollIt({
+      });
+    });
+
+    $(function(){
+      $("#slides").slidesjs({
+        width: 600,
+        height: 450,
+        navigation: false,
+        play: {
+          interval: 3500,
+          auto: true,
+          pauseOnHover: true
+        }
+      });
+    });
+
+    window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return t;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+  </script>
+
+</body>
+</html>
