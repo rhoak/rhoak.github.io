@@ -27,11 +27,19 @@ ul {
 .navbar {
   height: 60px;
   font-family: Roboto;
-  font-weight: 400;
-  font-size: .8em;
+  font-weight: 300;
+  font-size: 1em;
   text-transform: uppercase;
   background-color: white;
   padding-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+} 
+
+.navbar-nav {
+    margin: 0px -15px;
 }
 
 .navbar-default {
@@ -40,9 +48,8 @@ ul {
 
 .logo-slogan {
   float: right;
-  font-size: .8em;
+  font-size: 1em;
   font-weight: 100;
-  letter-spacing: .1em;
   padding-left: 15px;
   margin-top: 0px;
 }
@@ -119,6 +126,138 @@ h2 {
   opacity: 1;
   } 
 }
+
+/* ABOUT ME
+-------------------------------------------------- */
+.about {
+  width: 100%; 
+  clear: both;
+  background-color: #fff;
+}
+
+.about h3 { 
+  text-align: center;
+  font-size: 3em;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.about-info { 
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+.about-info p { 
+  font-size: 1.3em;
+  line-height: 2em;
+}
+
+.badges { 
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+
+.about-icons > li{
+  float: left;
+  padding-top: 23px;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 75px;
+}
+
+.back-panel { 
+  border-radius: 50%;
+  width: 160px; 
+  height: 160px;
+  background-color: #28d9b1;
+  display: table;
+}
+
+.back-panel p {
+  line-height: 2em !important;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 400; 
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transition: rotateY(180deg);
+  -o-transition: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 160px;
+  height: 160px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.7s;
+  -webkit-transition: 0.7s;
+  -moz-transition: 0.7s;
+  -ms-transition: 0.7s;
+  -o-transition: 0.7s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-sytle: preserve-3d;
+  -ms-transition: preserve-3d;
+  -o-transition: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  border-radius: 50%;
+  height: 160px;
+  width: auto;
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -m-transform: rotateY(0deg);
+}
+
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -m-transform: rotateY(180deg);
+}
+
 
 /* PORTFOLIO
 -------------------------------------------------- */
@@ -288,125 +427,7 @@ text-transform: uppercase;
 
 
 
-/* ABOUT ME
--------------------------------------------------- */
 
-.about {
-  width: 100%; 
-  clear: both;
-  background-color: #fff;
-}
-
-.about h3 { 
-  text-align: center;
-  font-size: 3em;
-  font-weight: 100;
-  text-transform: uppercase;
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-
-.about p { 
-  font-size: 1.5em;
-  line-height: 2.4em;
-}
-
-.about-icons > li{
-  float: left;
-  padding-top: 23px;
-  padding-right: 23px;
-  padding-left: 23px;
-  padding-bottom: 75px;
-}
-
-.back-panel { 
-  border-radius: 50%;
-  width: 160px; 
-  height: 160px;
-  background-color: #28d9b1;
-  display: table;
-}
-
-.back-panel p {
-  line-height: 2em !important;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 1.3em;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 400; 
-}
-
-/* entire container, keeps perspective */
-.flip-container {
-  perspective: 1000;
-  -webkit-perspective: 1000;
-  -moz-perspective: 1000;
-}
-
-/* flip the pane when hovered */
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -ms-transition: rotateY(180deg);
-  -o-transition: rotateY(180deg);
-}
-
-.flip-container, .front, .back {
-  width: 160px;
-  height: 160px;
-}
-
-/* flip speed goes here */
-.flipper {
-  transition: 0.7s;
-  -webkit-transition: 0.7s;
-  -moz-transition: 0.7s;
-  -ms-transition: 0.7s;
-  -o-transition: 0.7s;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-sytle: preserve-3d;
-  -ms-transition: preserve-3d;
-  -o-transition: preserve-3d;
-  position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-  border-radius: 50%;
-  height: 160px;
-  width: auto;
-  z-index: 2;
-  /* for firefox 31 */
-  transform: rotateY(0deg);
-  -webkit-transform: rotateY(0deg);
-  -moz-transform: rotateY(0deg);
-  -ms-transform: rotateY(0deg);
-  -m-transform: rotateY(0deg);
-}
-
-
-/* back, initially hidden pane */
-.back {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -ms-transform: rotateY(180deg);
-  -m-transform: rotateY(180deg);
-}
 
 /* SKILLS
 -------------------------------------------------- */
@@ -416,7 +437,9 @@ text-transform: uppercase;
   clear: both;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #f3f3f3;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #fff;
 }
 
 .skills h3 { 
@@ -470,7 +493,7 @@ text-transform: uppercase;
   clear: both;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #fff;
+  background-color: #f3f3f3;
 }
 
 .contact h3 { 
@@ -482,7 +505,7 @@ text-transform: uppercase;
 }
 
 .social { 
-  background-color: #fff;
+  background-color: #f3f3f3;
   border: 1px solid #28d9b1;
   border-radius: 50%;
   width: 75px;
@@ -529,7 +552,7 @@ text-transform: uppercase;
 
 .social:hover { 
   background-color: #28d9b1;
-  border: 1px solid #fff;
+  border: 1px solid #f3f3f3;
 
 }
 
@@ -546,7 +569,7 @@ text-transform: uppercase;
   width: 100%; 
   height: 50px;
   clear: both;
-  background-color: #f3f3f3;
+  background-color: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -563,6 +586,21 @@ text-transform: uppercase;
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media(max-width:1200px) {
+  .about-icons > li{
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+}
+
+@media(max-width:1090px) {
+  .about-icons > li{
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+}
+
+
 
 @media(max-width:991px) {
   h2 {
@@ -582,8 +620,8 @@ text-transform: uppercase;
   }
   .about-icons > li{
     padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 35px;
+    padding-right: 2.3%;
+    padding-left: 2.3%;
     padding-bottom: 45px;
   }
   .flip-container, .front, .back {
@@ -616,6 +654,13 @@ text-transform: uppercase;
 }
 
 
+@media(max-width:850px) {
+  .about-icons > li{
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+}
+
 @media(max-width:767px) {
   .heading { 
     height: 500px;
@@ -627,6 +672,21 @@ text-transform: uppercase;
     padding-top: 190px;
     font-size: 4em;
   }
+
+  .badges { 
+    width: 50%;
+    position: relative;
+    left: 25%;
+    background-color: green;
+  }
+
+  .about-icons > li{
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 20px;
+  }
+
 
   .welcome p { 
     font-size: 1.2em;
@@ -664,6 +724,27 @@ text-transform: uppercase;
   margin-bottom: 10px;
   margin-right: 1px !important; 
   margin-left: 1px !important;
+  }
+}
+
+@media(max-width:600px) {
+  .badges { 
+    width: 60%;
+    left: 20%;
+  }
+  h2 { 
+    padding-top: 150px;
+  }
+}
+
+@media(max-width:500px) {
+  .badges { 
+    width: 70%;
+    left: 15%;
+  }
+  .about-icons > li{
+    padding-right: 2%;
+    padding-left: 2%;
   }
 }
 
