@@ -27,7 +27,7 @@ ul {
 .navbar {
   height: 60px;
   font-family: Roboto;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 1em;
   text-transform: uppercase;
   background-color: white;
@@ -42,16 +42,21 @@ ul {
     margin: 0px -15px;
 }
 
+.navbar-brand>img {
+     display: inline-block; 
+}
+
 .navbar-default {
   background-color: white;
 }
 
 .logo-slogan {
-  float: right;
+  display: inline;
   font-size: 1em;
+  font-family: Roboto;
   font-weight: 100;
-  padding-left: 15px;
   margin-top: 0px;
+  padding-left: 10px;
 }
 
 .logo {
@@ -100,10 +105,10 @@ h2 {
   text-transform: uppercase;
   z-index: 1;
   text-align: center;
-  font-size: 7em;
+  font-size: 6.5em;
   line-height: 1.5em;
   color: white; 
-  font-family: Nunito;
+  font-family: Helvetica;
   -webkit-text-fill-color: rgba(255,255,255,0); 
   text-fill-color: rgba(255,255,255,0); 
   -webkit-text-stroke: 1px white; 
@@ -136,6 +141,8 @@ h2 {
 }
 
 .about h3 { 
+  font-family: Roboto;
+  font-weight: 300 !important;
   text-align: center;
   font-size: 3em;
   font-weight: 100;
@@ -151,7 +158,9 @@ h2 {
 }
 
 .about-info p { 
-  font-size: 1.3em;
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 1.4em;
   line-height: 2em;
 }
 
@@ -185,7 +194,9 @@ h2 {
   font-size: 1.3em;
   text-transform: uppercase;
   color: #fff;
+  font-family: Roboto !important;
   font-weight: 400; 
+   
 }
 
 /* entire container, keeps perspective */
@@ -270,6 +281,8 @@ h2 {
 }
 
 .portfolio h3 {
+  font-family: Roboto;
+  font-weight: 300 !important;
   text-align: center;
   font-size: 3em;
   font-weight: 100;
@@ -325,6 +338,8 @@ h2 {
 }
 
 .caption h4 {
+  font-family: Roboto;
+  font-weight: 300 !important;
   text-align: center;
   margin-top: 45px;
   opacity: 1;
@@ -335,6 +350,8 @@ h2 {
 }
 
 .caption h5 {
+  font-family: Roboto;
+  font-weight: 300 !important;
   text-align: center;
   opacity: 1;
   color: #2a2a2a;
@@ -344,6 +361,8 @@ h2 {
 }
 
 .caption p {
+  font-family: Roboto;
+  font-weight: 300 !important;
   text-align: center;
   padding-top: 8px;
   opacity: 1;
@@ -381,6 +400,7 @@ h2 {
 
 .modal-header {
 font-family: Roboto;
+font-weight: 300 !important;
 font-size: 2.5em !important;
 font-weight: 100;
 text-transform: uppercase;
@@ -410,6 +430,8 @@ text-transform: uppercase;
 }
 
 .modal-body p {
+  font-family: Roboto;
+  font-weight: 100 !important;
   font-size: 1.2em;
   line-height: 2.3em;
   padding-left: 15px;
@@ -443,6 +465,8 @@ text-transform: uppercase;
 }
 
 .skills h3 { 
+  font-family: Roboto;
+  font-weight: 300 !important;
   text-align: center;
   font-size: 3em;
   font-weight: 100;
@@ -497,6 +521,8 @@ text-transform: uppercase;
 }
 
 .contact h3 { 
+  font-family: Roboto;
+  font-weight: 300 !important;
   text-align: center;
   font-size: 3em;
   font-weight: 100;
@@ -575,6 +601,8 @@ text-transform: uppercase;
 }
 
 .footer p {
+  font-family: Roboto;
+  font-weight: 100 !important;
   text-align: center;
   font-size: 1.1em;
   font-weight: 100;
