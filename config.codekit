@@ -1890,15 +1890,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/arivale\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/arivale\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/arivale\/js\/scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
