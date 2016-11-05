@@ -1,31 +1,4 @@
-// Get Data -> one JSON AJAX request mocked up
-//    AKA: a function that returns data. 
 
-// linked charts...
-
-/**
-  ConstructCharts({
-    asterPlotTarget: '',
-    timeseriesChart: '',
-  })   // <- this is a javascript object
-
-  Inside javascript object:
-   -- constructor
-       -- create charts from data
-       -- bind events
-   -- event binding function 
-       -- binds events like moving the cursor along the timeseires 
-       -- in theory this is where you bind tooltips
-
-
-new ChartManager({asterPlotTarget: '#target1', timeSeriesTarget: '#target2'}, {});
-
-class ChartManager {
-  public function __init__(options, data) {
-    // do stuff, give data to charts
-    AsterPlot(, 
-
-**/
 
 ////////////////////////////////Pie Chart
 (function() {
