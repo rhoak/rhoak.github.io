@@ -357,14 +357,14 @@ h2 {
   color: #2a2a2a;
   font-size: 1em;
   font-weight: 100;
-  padding-bottom: 8px;
+  padding-bottom: 3px;
 }
 
 .caption p {
   font-family: Roboto;
   font-weight: 300 !important;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 3px;
   opacity: 1;
   color: #fff;
   font-size: 1.3em;
@@ -505,7 +505,11 @@ text-transform: uppercase;
 }
 
 .illustrator { 
-  width: 99%;
+  width: 96%;
+}
+
+.sketch { 
+  width: 98%;
 }
 
 /* CONTACT

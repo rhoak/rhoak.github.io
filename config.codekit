@@ -2477,6 +2477,61 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/img\/arivale-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/arivale-1.png",
+		"outputAbbreviatedPath": "\/img\/arivale-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arivale-abstractions-final.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/arivale-abstractions-final.png",
+		"outputAbbreviatedPath": "\/img\/arivale-abstractions-final.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arivale-abstractions.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38417,
+		"inputAbbreviatedPath": "\/img\/arivale-abstractions.png",
+		"outputAbbreviatedPath": "\/img\/arivale-abstractions.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arivale-final.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/arivale-final.png",
+		"outputAbbreviatedPath": "\/img\/arivale-final.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arivale.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 248427,
+		"inputAbbreviatedPath": "\/img\/arivale.png",
+		"outputAbbreviatedPath": "\/img\/arivale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/arrow.png": {
 		"fileType": 32768,
 		"ignore": 0,
