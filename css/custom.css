@@ -426,7 +426,6 @@ text-transform: uppercase;
 
 .modal-body {
   max-width: inherit;
-  padding: 0;
 }
 
 .modal-body p {
@@ -434,8 +433,9 @@ text-transform: uppercase;
   font-weight: 100 !important;
   font-size: 1.2em;
   line-height: 2.3em;
-  padding-left: 15px;
-  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 .modal-img {
