@@ -1910,6 +1910,176 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bentobox\/css\/normalize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bentobox\/css\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bentobox\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bentobox\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bentobox\/images\/david-pouring.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30096,
+		"inputAbbreviatedPath": "\/bentobox\/images\/david-pouring.jpg",
+		"outputAbbreviatedPath": "\/bentobox\/images\/david-pouring.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/download-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 331,
+		"inputAbbreviatedPath": "\/bentobox\/images\/download-icon.png",
+		"outputAbbreviatedPath": "\/bentobox\/images\/download-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/image-placeholder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2015,
+		"inputAbbreviatedPath": "\/bentobox\/images\/image-placeholder.png",
+		"outputAbbreviatedPath": "\/bentobox\/images\/image-placeholder.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/le-caviste-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91626,
+		"inputAbbreviatedPath": "\/bentobox\/images\/le-caviste-logo.png",
+		"outputAbbreviatedPath": "\/bentobox\/images\/le-caviste-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/menu-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5509,
+		"inputAbbreviatedPath": "\/bentobox\/images\/menu-1.jpg",
+		"outputAbbreviatedPath": "\/bentobox\/images\/menu-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/menu-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24186,
+		"inputAbbreviatedPath": "\/bentobox\/images\/menu-2.jpg",
+		"outputAbbreviatedPath": "\/bentobox\/images\/menu-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/menu-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33236,
+		"inputAbbreviatedPath": "\/bentobox\/images\/menu-3.jpg",
+		"outputAbbreviatedPath": "\/bentobox\/images\/menu-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/resturant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26056,
+		"inputAbbreviatedPath": "\/bentobox\/images\/resturant.jpg",
+		"outputAbbreviatedPath": "\/bentobox\/images\/resturant.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/trash-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 874,
+		"inputAbbreviatedPath": "\/bentobox\/images\/trash-icon.png",
+		"outputAbbreviatedPath": "\/bentobox\/images\/trash-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/upload-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1340,
+		"inputAbbreviatedPath": "\/bentobox\/images\/upload-icon.png",
+		"outputAbbreviatedPath": "\/bentobox\/images\/upload-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/wine-bottles-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38957,
+		"inputAbbreviatedPath": "\/bentobox\/images\/wine-bottles-2.jpg",
+		"outputAbbreviatedPath": "\/bentobox\/images\/wine-bottles-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/images\/wine-pic-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33881,
+		"inputAbbreviatedPath": "\/bentobox\/images\/wine-pic-1.jpg",
+		"outputAbbreviatedPath": "\/bentobox\/images\/wine-pic-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bentobox\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bentobox\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bentobox\/js\/scripts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bentobox\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/bentobox\/js\/min\/scripts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/css\/animate.css": {
 		"fileType": 16,
 		"ignore": 0,
