@@ -1,640 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="portfolio" content="">
-  <meta name="rachael" content="">
-
+  
   <title>r.h.design</title>
+  <meta name="description" content="design portfolio">
+  <meta name="author" content="Rachael Hoak">
 
   <link rel="icon" type="img/png" href="img/favicon.png" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-  <!-- Boootztrap Core CSS -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
 
-  <!-- Animate CSS -->
-  <link href="css/animate.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom CSS -->
-  <link href="css/custom.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"> 
-
-  <!--********************** Nav *****************--> 
-  <nav class="navbar navbar-default navbar-fixed-top page-scroll" role="navigation">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand page-scroll" href="#page-top"> <img src="img/logo.png" class="logo" alt="logo"> 
-          <div class="logo-slogan"> Rachael Hoak </div>
-        </a>
-      </div>
-
-      <div class="collapse navbar-collapse  navbar-right" id="navbar-collapse">
-        <ul class="nav navbar-nav navbar-default">
-          <li><a href="#intro" class="page-scroll">Welcome</a></li>
-          <li><a href="#about" class="page-scroll">About</a></li>
-          <li><a href="#work" class="page-scroll">Work</a></li>
-          <li><a href="#skills" class="page-scroll">Skills</a></li>
-          <li><a href="#contact" class="page-scroll">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container/ -->
-  </nav>
-
-  <!--********************** Heading *****************-->
-  <section id="intro" class="intro-section"> 
-    <div class="heading">
-      <div class="mt"></div>
-      <div class="motion">
-        <h2> Product Designer </h2>
-      </div>
+<body>
+  
+  <header>
+    <div class="logo-container" onclick="window.open('index.html');" style="cursor: pointer;">
+      <img src="img/rh-logo-dot.png" alt="logo" />
     </div>
-  </section> 
-
-
-      <!--********************** About Me *****************--> 
-        <section id="about" class="about-section">  
-         <div class="about">
-            <h3> Welcome </h3> 
-              <div class="about-info">
-                <p>I am a NYC based product designer who focuses on developing user friendly interfaces and designs that quickly convey brands and complex ideas. I love integrating design with functionality, making clean and beautiful interfaces that aim to enhance efficiency as well as the user experience. I thrive in an environment where I can bring product from ideation through testing to market fit.<br><br>
-                If you have any further questions or would like a case study explaining my process please don't hesitate to <strong><a href="mailto:rachaelhoak@gmail.com?Subject=Hello!" target="_top">reach out</a></strong>.
-                </p>
-              </div>
-
-              <div class="badges"> 
-                <ul class="about-icons">  
-                  <li><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper item1">
-                      <div class="front">
-                        <img class="img-circle img-responsive img-center" src="img/graph3.png" alt="">
-                      </div>
-                      <div class="back">
-                        <div class="back-panel"> <p> Beautifully <br> Visualizes <br> Data </p> </div>
-                      </div>
-                    </div>
-                  </div></li>
-
-                  <li><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper item2">
-                      <div class="front">
-                        <img class="img-circle img-responsive img-center" src="img/curiosity2.png" alt="">
-                      </div>
-                      <div class="back">
-                        <div class="back-panel"> <p> Explores <br> New <br> Technologies </p> </div>
-                      </div>
-                    </div>
-                  </div></li>
-
-                  <li><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper item3">
-                      <div class="front">
-                        <img class="img-circle img-responsive img-center" src="img/build2.png" alt="">
-                      </div>
-                      <div class="back">
-                        <div class="back-panel"> <p> Builds <br> Functional <br> Designs </p> </div>
-                      </div>
-                     </div>
-                   </div>
-                  </li>
-
-                  <li><div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                    <div class="flipper item4">
-                        <div class="front">
-                          <img class="img-circle img-responsive img-center" src="img/paintbrush2.png" alt="">
-                        </div>
-                        <div class="back">
-                          <div class="back-panel"> <p> Makes <br> Stuff <br> Pretty </p> </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul> <!-- end flip images -->
-              </div>
-
-          </div> <!--end of about-->
-        </section> <!-- / end of about section -->
-
-
-  <!--********************** Portfolio *****************--> 
-  <section id="work" class="work-section"> 
-    <div class="container portfolio">
-      <div class="row">
-        <h3> Portfolio </h3> <!-- /section portfolio -->
-        <ul class="thumbnails">
-
-          <!--******* id-14: Arivale *********--> 
-          <li data-type="print" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/arivale.png" alt="">
-              <div class="caption">
-                <h4>Arivale Redesign</h4>
-                <h5>2017 - 2018</h5>
-                <p>Product Design</p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id14" rel="tooltip" title="Preview" img-url="img/arivale-redesign.png" img-alt="">
-                  <img src="img/white_expand.png" alt="expand">
-                </a> 
-              </div>
-            </div>
-          </li>
-
-          <!-- id-14 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id14" tabindex="-1" role="dialog" aria-labelledby="id14Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                  </button>
-                  <h4 class="modal-title">Arivale Redesign Project</h4>
-                </div>
-                <div class="modal-body">
-                  <p>I was the product designer in Arivale's redesign project. I collected customer insight through focus group research and interviews. Gathered user research to influence the design and value proposition. Created a new design system to be easily scalable and flexible for the changing business model. Developed a new visual language to express the product and services. Post launch I used success metrics to track the websites performance and make continual updates.  </p>
-                </div>
-              </div>
-            </div>
-          </div> 
-
-
-          <!--******* id-13: Arivale Abstractions *********--> 
-          <li data-type="print" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/arivale-starterinsights.png" alt="">
-              <div class="caption">
-                <h4>Arivale Starter Insight</h4>
-                <h5>2017 - 2018</h5>
-                <p>Product Design</p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id13" rel="tooltip" title="Preview" img-url="img/arivale-dashboard.gif" img-alt="Arivale Stater Insight">
-                  <img src="img/white_expand.png" alt="expand">
-                </a> 
-              </div>
-            </div>
-          </li>
-
-          <!-- id-13 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id13" tabindex="-1" role="dialog" aria-labelledby="id13Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                  </button>
-                  <h4 class="modal-title">Arivale Starter Insight</h4>
-                </div>
-                <div class="modal-body">
-                  <p>I was a product designer on this project to create a simplified version of Arivale's flagship program named Starter Insight. This involved creating the MVP to take it to market as soon as possible. Post launch I conducted user research to optimize the design.
-                </div>
-              </div>
-            </div>
-          </div> 
+    
+    <nav>
+      <a href="index.html">home</a> 
+      <a href="#work">work</a> 
+      <a href="about.html">about me</a> 
+    </nav> 
+  </header>
  
-          <!--******* id-12: Makeup Date *********--> 
-          <li data-type="print" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/makeup-date-1.png" alt="">
-              <div class="caption">
-                <h4>Makeup Date</h4>
-                <h5>September 2015</h5>
-                <p>Front-end Development</p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id12" rel="tooltip" title="Preview" img-url="img/makeup-date-final.jpg" img-alt="dragoncurve">
-                  <img src="img/white_expand.png" alt="expand">
-                </a> 
-              </div>
-            </div>
-          </li>
-
-          <!-- id-12 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id12" tabindex="-1" role="dialog" aria-labelledby="id12Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                  </button>
-                  <h4 class="modal-title">Makeup Date</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Developed a website featuring a makeup artist while working at Bloomingdales. HTML5 background video was used to create a visually stimulating effect. Not only was the website visually engaging but also connected customers to products through the use slideshows and drop downs.</p>
-                </div>
-              </div>
-            </div>
-          </div> 
-
-         <!--******* id-11: AutoPlay *********--> 
-          <li data-type="print" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/autoplay.png" alt="">
-              <div class="caption">
-                <h4>AutoPlayz</h4>
-                <h5>March 2015</h5>
-                <p>Web Design / Illustration</p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id11" rel="tooltip" title="Preview" img-url="img/autoplay-final.jpg" img-alt="dragoncurve">
-                  <img src="img/white_expand.png" alt="expand">
-                </a> 
-              </div>
-            </div>
-          </li>
-
-          <!-- id-11 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id11" tabindex="-1" role="dialog" aria-labelledby="id11Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                  </button>
-                  <h4 class="modal-title">AutoPlayz</h4>
-                </div>
-                <div class="modal-body">
-                  <p>An application I designed to display music playlists based on a person's mood. I envisioned a product that would effortlessly and beautifully allow users to schedule playlists for different times of the day. I created the visual design, the icons and the layout.</p>
-                </div>
-              </div>
-            </div>
-          </div> 
-
-          <!--******* id-10: Dragon Curve *********--> 
-          <li data-type="print" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/dragoncurve.png" alt="">
-              <div class="caption">
-                <h4>Dragon Curve</h4>
-                <h5>Octoboer 2014</h5>
-                <p>Web Design / Illustration </p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id10" rel="tooltip" title="Preview" img-url="img/dragoncuve-final.jpg" img-alt="dragoncurve">
-                  <img src="img/white_expand.png" alt="expand">
-                </a> 
-              </div>
-            </div>
-          </li>
-
-          <!-- id-10 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id10" tabindex="-1" role="dialog" aria-labelledby="id10Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                  </button>
-                  <h4 class="modal-title">Dragon Curve</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Dragon Curve is entrepreneurship network for young leaders. I redesigned their site using the color scheme from their logo. I created the mission statement icon and the various patterns used throughout the mockup.</p>
-                </div>
-              </div>
-            </div>
-          </div> 
-
-          <!--******* id-9: Finance App  *********-->
-          <li data-type="ui" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/financeapp.png" alt="">
-              <div class="caption">
-                <h4>Finance Tracking App</h4>
-                <h5>October 2014</h5>
-                <p>App Design / Data Visualization</p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id9" rel="tooltip" title="Preview" img-url="img/financeapp_final.jpg" img-alt="financeapp">
-                  <img src="img/white_expand.png" alt="expand">
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <!-- id-9 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id9" tabindex="-1" role="dialog" aria-labelledby="id9Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                  </button>
-                  <h4 class="modal-title">Finance Tracking App</h4>
-                </div>
-                <div class="modal-body">
-                  <p>The personal finance tracking app was a vision I had to make budgeting more beautiful. I used bright and vibrant colors to add some fun to financial planning. I designed all of the svg graphs and charts with hierarchy in mind - starting with financial bills/responsibility transitioning into personal financial goals.</p>
-                </div> 
-              </div>
-            </div>
-          </div>
-
-          <!--******* id-8: Kiki Riki *********--> 
-          <li data-type="ui" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/kikiriki.png" alt="">
-              <div class="caption">
-                <h4>Kiki Riki </h4>
-                <h5>September 2014</h5>
-                <p>Web Design / Development </p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id8" rel="tooltip" title="Preview" img-url="img/kikiriki-final.jpg" img-alt="kiki-riki">
-                  <img src="img/white_expand.png" alt="expand">
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <!-- id-8 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id8" tabindex="-1" role="dialog" aria-labelledby="id8Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                      <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                  </button>
-                  <h4 class="modal-title">Kiki Riki</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Kiki Riki is a Turkish fashion company that at the time was about to launch their USA brand. I designed the layout and then developed a template using bootstrap on top of a CMS. I created a layout to match complement their KikiRiki logo and accentuate their dynamic/vibrant lookbooks.</p>
-                </div>
-              </div>
-            </div>
-          </div> 
-
-          <!--******* id-7: ManoType *********--> 
-          <li data-type="ui" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/manotype.png" alt="">
-              <div class="caption">
-                <h4>ManoType</h4>
-                <h5>September 2014</h5>
-                <p>Web Design / Illustration </p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id7" rel="tooltip" title="Preview" img-url="img/typing-final.jpg" img-alt="typing">
-                  <img src="img/white_expand.png" alt="expand">
-                </a> 
-              </div>
-            </div>
-          </li>
-
-          <!-- id-7 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id7" tabindex="-1" role="dialog" aria-labelledby="id7Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <h4 class="modal-title">ManoType</h4>
-                </div>
-                <div class="modal-body">
-                  <p> ManoType is a program created to help people learn to type and reach their individual typing goals. The site is designed to be minimalistic since the intended use is for long periods of typing. The darker color scheme is used so that it is slightly easier on the eyes. In addition to designing the sites look and feel I also created the svg hands, keyboard, and geometric start page.</p>
-                </div> 
-              </div>
-            </div>
-          </div> 
 
 
-          <!--******* id-6: GreenCity *********-->
-          <li data-type="presentation" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/greencity.png" alt="">
-              <div class="caption">
-                <h4>Green City Mockup</h4>
-                <h5>March 2014</h5>
-                <p>Web Design / Logo Design</p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id6" rel="tooltip" title="Preview" img-url="img/greencity-final.jpg" img-alt="greencity">
-                  <img src="img/white_expand.png" alt="expand">
-                </a> 
-              </div>  
-            </div>
-          </li>
-
-          <!-- id-6 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id6" tabindex="-1" role="dialog" aria-labelledby="id6Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal">
-                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-                  </button>
-                  <h4 class="modal-title">Green City Mockup</h4>
-                </div>
-                <div class="modal-body">
-                  <p>The mockup of a website's first page. Using just black and white with a splash of color, the mockup stays minimalistic. The top picture of a cityscape is overlaid with patterns to create a stained glass look. This visual is intended to give the mockup a level of detail and class.</p>
-                </div> 
-              </div>
-            </div>
-          </div> 
-
-          <!--******* id-5: Energy Presentation *********--> 
-          <li data-type="presentation" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/energy.png" alt="">
-              <div class="caption">
-                <h4>Energy Presentation</h4>
-                <h5>January 2013</h5>
-                <p>Presentation Design / Illustration</p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id5" rel="tooltip" title="Preview" img-url="img/energy-final.jpg" img-alt="energy">
-                  <img src="img/white_expand.png" alt="expand">
-                </a>
-              </div>  
-            </div>
-          </li>
-
-          <!-- id-5 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id5" tabindex="-1" role="dialog" aria-labelledby="id5Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <h4 class="modal-title">Energy Presentation</h4>
-                </div>
-                <div class="modal-body">
-                  <p>Created as a mock-up presentation for an energy company. The prospective client was looking for slides that could capture the look and feel of clean, sustainable energy. Coming into a new and exciting market with many possibilities, I chose bright, vibrant colors. I overlaid graphs and information on high resolution pictures, a tribute to the classic idea of sustainability: reuse.</p>
-                </div> 
-              </div>
-            </div>
-          </div> 
-
-
-          <!--*******  id-4: Dynamic Design *********--> 
-          <li data-type="presentation" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/dynamic.png" alt="">
-              <div class="caption">
-                <h4>Dynamic Design</h4>
-                <h5>August 2012</h5>
-                <p>Web Design / Illustration </p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id4" rel="tooltip" title="Preview" img-url="img/dynamic-final.jpg" img-alt="dynamic design">
-                  <img src="img/white_expand.png" alt="expand">
-                </a> 
-              </div>
-            </div>
-          </li>
-
-          <!-- id-4 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id4" tabindex="-1" role="dialog" aria-labelledby="id4Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <h4 class="modal-title">Dynamic Design</h4>
-                </div>
-                <div class="modal-body">
-                  <p>An accordion style slider revealing four illustrations. Each illustration is intended to correspond with the clients four word motto: Educate, Lead, Connect and Inspire. The concept was developed around the idea of silhouettes, where every silhouette is paired with a highly detailed background.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--******* id-3: Data Visualization *********--> 
-          <li data-type="presentation" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/dataviz.png" alt="">
-              <div class="caption">
-                <h4>Data Visualization</h4>
-                <h5>August 2012</h5>
-                <p>Presentation Design / Illustration </p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id3" rel="tooltip" title="Preview" img-url="img/dataviz-final.jpg" img-alt="dataviz">
-                  <img src="img/white_expand.png" alt="expand">
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <!-- id-3 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id3" tabindex="-1" role="dialog" aria-labelledby="id3Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <h4 class="modal-title">Data Visualization</h4>
-                </div>
-                <div class="modal-body">
-                  <p>A presentation about the visualization of large data. Here are a few examples of backgrounds I created for the presentation.</p>
-                </div>
-              </div>
-            </div>
-          </div> 
-
-          <!--******* id-2: Asteroid Mining *********--> 
-          <li data-type="presentation" class="col-lg-3 col-md-4 col-sm-4  col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/asteroid.png" alt="">
-              <div class="caption">
-                <h4>Asteroid Mining</h4>
-                <h5>July 2012</h5>
-                <p>Presentation Design / Illustration</p>
-                <!-- Button trigger modal -->
-                <a href="#" class="cap-button zmdl-button" data-target="#id2" rel="tooltip" title="Preview" img-url="img/asteroid-mining.jpg" img-alt="asteroid-mining">
-                  <img src="img/white_expand.png" alt="expand">
-                </a>
-              </div>
-            </div>
-          </li>
-
-          <!-- id-2 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id2" tabindex="-1" role="dialog" aria-labelledby="id2Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <h4 class="modal-title">Asteroid Mining</h4>
-                </div>
-                <div class="modal-body">
-                  <p>A presentation about mining in space. Crafted to educate about the future possibilities of mining asteroids for resources. Youthful colors are intended to give a perception of playfulness, while the detailed asteroids add a level of realism. The intended result is visual conversation juxtaposing reality with possibility.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!--******* id-1: Gongora Wine *********--> 
-          <li data-type="print" class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumby">
-            <div class="thumbnail">
-              <img class="img-responsive work-pic" src="img/gongora.png" alt="">
-              <div class="caption">
-                <h4>Gongora Wine</h4>
-                <h5>March 2010</h5>
-                <p>Packaging Design / Illustration</p>
-                <a href="#" class="cap-button zmdl-button" data-target="#id1" rel="tooltip" title="Preview" img-url="img/gongora-final.jpg" img-alt="gongora">
-                  <img src="img/white_expand.png" alt="expand">
-                </a> 
-              </div>
-            </div>
-          </li>
-
-          <!-- id-1 Modal -->
-          <div class="modal fade bs-example-modal-lg" id="id1" tabindex="-1" role="dialog" aria-labelledby="id1Label" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                  <h4 class="modal-title">Gongora</h4>
-                </div>
-                <div class="modal-body">
-                  <p>A concept for the label of an innovative start up winery, Gongora. The project consisted of displaying modern art on a wine bottle. Greatly influenced by the Russian abstractionist Kandinsky, the label is transparent with gradient overlays. As the wine is consumed, light shines through the label, morphing the look and feel of the wine bottle. It is quite literally "the art of consumption".</p>
-                </div> 
-              </div>
-            </div>
-          </div> 
-
-        </ul> <!-- end thumbnails -->
-      </div> 
-    </div>  <!--end of container-->
-  </section><!-- / end of work section -->
-
-
-  <!--********************** Skills *****************--> 
-  <section id="skills" class="skills-section">  
-    <div class="skills">
-          <h3> Skills </h3> 
-          <div class="graphbar html">html/html5</div>
-          <div class="graphbar css">css/css3</div>
-          <div class="graphbar javascript">javascript/jquery</div>
-          <div class="graphbar photoshop">photoshop</div>
-          <div class="graphbar illustrator">illustrator</div>
-          <div class="graphbar sketch">sketch</div>
-        </div>
-    </section>  
-  <!--********************** Contact *****************-->
-  <section id="contact" class="contact-section">   
-    <div class="contact"> 
-      <h3> Contact </h3> 
-      <div class="socialmedia-container">
-        <ul class="socialmedia">
-          <a href="mailto:Rachaelhoak@gmail.com.com"><li class="social"><i class="fa fa-envelope"></i></li></a>
-          <a href="https://github.com/rhoak"><li class="social"><i class="fa fa-github-square"></i></li></a>
-          <a href="https://www.linkedin.com/in/rachaelhoak"><li class="social"><i class="fa fa-linkedin-square"></i></li></a>
-        </ul>
-      </div>
+  <main>
+ 
+  <div class="intro">    
+    <div class="words">
+      <h1>Design for <span class="user">users</span> <span class="people">people</span></h1>
+      <p>Hi, I'm Rachael. I believe good design comes from an understanding human behavior. I conceptualize and create digital products, craft visuals and tell stories.</p>
     </div>
-  </section>
-
-  <!--********************** Footer *****************-->
-  <div class="footer"> 
-    <p>copyright Rachael Hoak </p>
   </div>
 
-  <!--********************** Scripts *****************--> 
-   <!-- jQuery Version 1.11.0 -->
-  <script src="js/jquery.min.js"></script>
+    <div class="portfolio-container" id="work">
+      
+      <div class="portfolio-item" onclick="window.open('storefronts.html','mywindow');" style="cursor: pointer;">
+        <div class="portfolio-image storefront"></div>
 
-    <!-- Bootstrap Core JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <div class="p-type">Product Design · 2021-2020</div>
+        <div class="p-case">Case Study</div>
+        <div class="p-name">Designing a content management system for the beverage alcohol industry</div>
+        <a href="storefronts.html" class="p-link">Learn more</a> 
+        <div class="under-bar"></div>
+      </div>
 
-  <!-- Scroll Nav -->
-  <script src="js/scrolling-nav.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
+      <div class="portfolio-item" onclick="window.open('buyer.html','mywindow');" style="cursor: pointer;">
+        <div class="portfolio-image buyer"></div>
+        <div class="p-type">Case study · 2019-2020</div>
+        <div class="p-case">Case Study</div>
+        <div class="p-name">Optimizing the Buyer's cart for aggregated market</div>
+        <a href="buyer.html" class="p-link">Learn more</a> 
+        <div class="under-bar"></div>
+      </div>
 
-  <!-- Custom JavaScript -->
+      <div class="portfolio-item" onclick="window.open('helix.html','mywindow');" style="cursor: pointer;">
+        <div class="portfolio-image helix"></div>
+        <div class="p-type">Case study · 2018</div>
+        <div class="p-case">Case Study</div>
+        <div class="p-name">A lead generating product for a wellness company's flagship program</div>
+        <a href="helix.html" class="p-link">Learn more</a> 
+        <div class="under-bar"></div>
+      </div>
+
+      <div class="portfolio-item" onclick="window.open('arivale.html','mywindow');" style="cursor: pointer;">
+        <div class="portfolio-image arivale"></div>
+        <div class="p-type">Case study · 2017-2018</div>
+        <div class="p-case">Case Study</div>
+        <div class="p-name">Finding the value proposition through a redesign</div>
+        <a href="arivale.html" class="p-link">Learn more</a> 
+        <div class="under-bar"></div>
+      </div>
+
+
+      <div class="portfolio-item">
+        <div class="portfolio-image jobboard"></div>
+        <div class="p-type">Product Design · 2020</div>
+        <div class="p-name">Created a job board in response to COVID-19 crisis to help trade professionals in the alcohol beverage industry find work. </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image makeupdate"></div>
+        <div class="p-type">Web Design / Development · 2015</div>
+        <div class="p-name">Developed splash pages for Bloomingdales' promotional launches.</div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-image kikiriki"></div>
+        <div class="p-type">Web Design / Development · 2014</div>
+        <div class="p-name">Designed and developed 2014 summer and fall virtual lookbook.</div>
+      </div>
+
+     <div class="portfolio-item">
+        <div class="portfolio-image asteroid"></div>
+        <div class="p-type">Presentation design · 2012</div>
+        <div class="p-name">Created the visuals and narrative for this educational presentation on mining asteroids for resources.</div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer">
+    Copyright &copy; 2021 Rachael Hoak. All rights reserved.
+    </div>
+  </footer>
+
   <script src="js/scripts.js"></script>
-
-  <!-- script-for-testing area-->
-  <script>
-
-  </script>
-
 </body>
 </html>
