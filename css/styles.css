@@ -244,7 +244,7 @@ nav a:hover{
 
 .p-case { 
 	font-family: 'Work Sans', sans-serif;
-	font-size: .8em;
+	font-size: .7em;
 	font-weight: 400;
   background-color: #F0C8FF;
   border: none;
@@ -480,7 +480,7 @@ nav a:hover{
   	font-size: 2em;
    }
 
-	.logo img { 
+	.logo-container img { 
 		margin-top: 10px;
 		height: 26px;
 	}
