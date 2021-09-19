@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="" content="">
+
+  <title></title>
+
+  <!-- JS-->
+  <script src="https://use.fontawesome.com/31bf222a59.js"></script>
+
+  <!-- Custom Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700" rel="stylesheet">
+ 
+  <!-- Custom CSS -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/pchart.css" rel="stylesheet">
+  <link href="css/lchart.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <img src="https://arivale-dashboard-media.s3.amazonaws.com/images/arivale-logo.png" width="130" data-reactid=".0.0.0.1.0.0">
+    </div>
+      <img src="images/nav.png" class="top-left-nav" width="715" alt="">
+  </div>
+
+  <div class="left-nav">
+    <ul>
+      <li class="active"><span><i class="fa fa-tachometer fa-lg" aria-hidden="true"></i>HOME</span></li>
+      <li><span><i class="fa fa-heartbeat fa-lg" aria-hidden="true"></i>ACTIVITY</span></li>
+      <li><span><i class="fa fa-cutlery fa-lg" aria-hidden="true"></i>FOOD</span></li>
+      <li><span><i class="fa fa-bed fa-lg" aria-hidden="true"></i>SLEEP</span></li>
+      <li><span><i class="fa fa-bolt fa-lg" aria-hidden="true"></i>STRESS</span></li>
+      <li><span><i class="fa fa-smile-o fa-lg" aria-hidden="true"></i>MOOD</span></li>
+      <li><span><i class="fa fa-comments-o fa-lg" aria-hidden="true"></i>COACH</span></li>
+      <li><span><i class="fa fa-cog fa-lg" aria-hidden="true"></i>SETTINGS</span></li>
+    </ul>
+  </div>
+
+  <div class="dashboard">
+    <div class="dashboard-header">
+      <h1>DASHBOARD</h1>
+      <h1>FRIDAY, NOVEMBER 4th</h1>
+      <h2>How are you doing based on the goals that you set?</h2>
+    </div>
+
+    <div class="dashboard-summary">
+      <p><span class="name">Hello Michael,</span> <br>
+        Welcome back! You are doing a great job on your <span class="act-goals">fitness goals</span>, and it looks like you got a good <span class="sle-goals">sleep</span> last night. We noticed you have not been meeting your current <span class="foo-goals">nutrition goals</span>. Need a regroup? Check in with your coach at anytime. Lettuce taco 'bout your food goals together. 
+      </p>
+    </div>
+
+
+    <div class="pchart-container"> 
+      <h1>NOVEMBER 4, 2016</h1>
+      <h2>A glance at today</h2>
+
+      <div class="button-group">
+        <span>Day</span>
+        <span>Month</span>
+        <span>Quarter</span>
+      </div>
+
+      <div class="pchart"></div> 
+      <div class="activity-container">
+          <h1>Latest Inputs</h1>
+          <h3><span class="act-goals">Fitness Activity - Input</span></h3>
+          <h4>November 3rd : 10:00 AM</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh mi, pretium id fermentum sed. </p>
+          <h3><span class="str-goals">Stress - Input</span></h3>
+          <h4>November 3rd : 10:00 AM</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh mi, pretium id fermentum sed. </p>
+          <h3><span class="moo-goals">Mood - Input</span></h3>
+          <h4>November 3rd : 10:00 AM</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nibh mi, pretium id fermentum sed. </p>
+      </div>  
+    </div>
+
+
+    <div class="lchart-container"> 
+      <h1>2016</h1>
+      <h2>Tracking progress over time</h2>
+      <div class="button-group">
+        <span>All Time</span>
+        <span>Year</span>
+        <span>Quarter</span>
+      </div>
+      <div class="lchart"></div>
+    </div>
+  </div>
+
+
+  
+  
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<!--   // <script src="js/pchart.js"></script> -->
+<!--   // <script src="js/lchart.js"></script> -->
+  <script src="js/scripts.js"></script>
+  
+</body>
+</html>
