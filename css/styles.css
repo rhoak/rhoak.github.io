@@ -439,18 +439,11 @@ nav a:hover{
   nav {
   	width: 60%;
   }
-  .words h1 { 
-  	font-size: 2.6em;
-   }
-   .words h2 {
-   	font-size: .9em; 
-   }
-  .words p {
-		font-size: 1.5em;
-		line-height: 1.5em;
-  }
   .portfolio-container {
     grid-template-columns: 1fr 1fr;
+  }
+  .words { 
+  	top:  25%;
   }
  }
 
@@ -458,6 +451,7 @@ nav a:hover{
  .words { 
   	left: 10%;
 		right: 10%;
+		top: 20%;
 	}
  }
 
@@ -465,6 +459,7 @@ nav a:hover{
  .words { 
   	left: 5%;
 		right: 5%;
+		top: 15%;
 	}
  }
 
@@ -476,9 +471,6 @@ nav a:hover{
   nav {
   	margin-right: 0px;
   }
-  .words h1 { 
-  	font-size: 2em;
-   }
 
 	.logo-container img { 
 		margin-top: 10px;
@@ -487,20 +479,34 @@ nav a:hover{
  	.words { 
   	left: 5%;
 		right: 5%;
+		top:  10%;
 	}
-
-  .words p {
-		font-size: 1.3em;
-		line-height: 1.3em;
-  }
+	.words h1 { 
+		font-size: 2.8em;
+	 }
+	 .words p { 
+	 		font-size: 1.6em;
+	  }
   .portfolio-container {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 375px) {
-
+@media (max-width: 360px) {
+	.words h1 { 
+		font-size: 2.5em;
+	 }
  }
+
+@media (max-width: 320px) {
+	.words h1 { 
+		font-size: 2.3em;
+	 }
+	 .words p { 
+	 		font-size: 1.5em;
+	  }
+ }
+
 
 
 
