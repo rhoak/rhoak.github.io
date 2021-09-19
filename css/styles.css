@@ -97,15 +97,6 @@ nav a:hover{
 	float: left;
  }
 
-.logo-container p { 
-	float: left;
-	font-family: 'Work Sans', sans-serif;
-	font-size: 1.1em;
-	font-weight:  300;
-	padding-left: 10px;
-	margin-top: 18px;
-}
-
 .footer { 
 	color: #979797;
 	font-family: 'Work Sans', sans-serif;
@@ -146,7 +137,7 @@ nav a:hover{
 .words p { 
 	font-family: 'Cormorant', serif;
 	font-size: 1.7em;
-	font-weight: 200;
+	font-weight: 300;
 	line-height: 1.6em;
 	padding-top: 20px;
 }
@@ -253,12 +244,12 @@ nav a:hover{
 
 .p-case { 
 	font-family: 'Work Sans', sans-serif;
-	font-size: .6em;
+	font-size: .8em;
 	font-weight: 400;
   background-color: #F0C8FF;
   border: none;
   color: black;
-  margin-top: 8px;
+  margin-top: 10px;
   padding: 4px 8px;
   text-align: center;
   text-decoration: none;
@@ -268,23 +259,23 @@ nav a:hover{
 
 .p-type { 
 	font-family: 'Work Sans', sans-serif;
-	font-size: .8em;
+	font-size: 1em;
 	font-weight: 500;
 	padding-top: 15px;
 }
 
 .p-name { 
 	font-family: 'Cormorant', serif;
-	font-size: 1.1em;
-	font-weight: 300;
+	font-size: 1.3em;
+	font-weight: 400;
 	line-height: 1.2em;
 	padding: 14px 0;
  }
 
 .p-link { 
-	font-size: .9em;
+	font-size: 1em;
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 500;
 	color: slateblue;
 	 -webkit-transition: 0.5s ease;
 }
@@ -479,30 +470,19 @@ nav a:hover{
 
 @media (max-width: 425px) {
   nav {
-  	width: 80%;
+  	width: 70%;
   }
-  .logo-container p {
-  	display: none;
-	}	  
 
   nav {
   	margin-right: 0px;
-  }
-  nav a {
-  	font-size: 12px;
   }
   .words h1 { 
   	font-size: 2em;
    }
 
-  .logo-container img { 
-		margin-top: 12px;
-		height: 18px;
-  }
-
 	.logo img { 
-		margin-top: 12px;
-		height: 18px;
+		margin-top: 10px;
+		height: 26px;
 	}
  	.words { 
   	left: 5%;
@@ -519,21 +499,6 @@ nav a:hover{
 }
 
 @media (max-width: 375px) {
-  nav a {
-		font-size: 11px;
-	}
-	.logo { 
-		height:  18px;
-	}
-	.intro { 
-		height: 400px;
-	 }
-	.intro-background{
-		height: 250px;
-	}
- 	.logo-container p {
-		font-size: 10px;
-	}	
 
  }
 
