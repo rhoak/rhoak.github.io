@@ -464,9 +464,6 @@ nav a:hover{
 		right: 5%;
 		top: 15%;
 	}
-	 .words p { 
-	 		font-size: 1.5em;
-	  }
  }
 
 @media (max-width: 425px) {
@@ -491,7 +488,7 @@ nav a:hover{
 		font-size: 2.8em;
 	 }
 	 .words p { 
-	 		font-size: 1.4em;
+	 		font-size: 1.5em;
 	  }
   .portfolio-container {
     grid-template-columns: 1fr;
@@ -509,7 +506,7 @@ nav a:hover{
 		font-size: 2.3em;
 	 }
 	 .words p { 
-	 		font-size: 1.3em;
+	 		font-size: 1.4em;
 	  }
  }
 
