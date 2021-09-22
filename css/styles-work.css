@@ -283,7 +283,7 @@
 @media (max-width: 800px) { 
 	.process-container { 
 		flex-wrap: wrap;
-		grid-gap: 0px1c;
+		grid-gap: 0;
 	 }
 
 }
