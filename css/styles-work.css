@@ -204,6 +204,11 @@
 	background-image: url(../img/buyer-banner-1.png);
  }
 
+ .buyer-journey { 
+	background-image: url(../img/buyer-journey.jpg);
+	padding-top:  44.44%;
+ }
+
  /* 
 }
 -----------------------Helix------------------------ */
@@ -215,6 +220,11 @@
  .helix-flow { 
 	background-image: url(../img/helix-user-flow.png);
 	padding-top:  56.25%;
+ }
+
+ .helix-pre-launch { 
+	background-image: url(../img/helix-pre-launch.jpg);
+	padding-top:  13.04%;
  }
 
 
@@ -238,17 +248,14 @@
 	background-image: url(../img/arivale-banner.png);
  }
 
+ .arivale-flow { 
+	background-image: url(../img/Arivale-redesign-flow.png);
+	padding-top:  24.11%;
+ }
+
  /* 
 }
 -----------------------Arivale------------------------ */
-
-
-.arivale-flow { 
-	background-image: url(../img/Arivale-redesign-flow.png);
-	height:  290px;
-	background-size: contain;
-	background-position: center;
- }
 
 
  .helix-mockups-mb { 
@@ -264,10 +271,6 @@
 	height:  480px;
  }
 
-.helix-pre-launch { 
-	background-image: url(../img/helix-pre-launch.jpg);
-	height:  104px;
- }
 
  .helix-post-launch { 
 	background-image: url(../img/helix-post-launch.jpg);
