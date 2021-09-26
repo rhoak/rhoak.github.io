@@ -217,6 +217,19 @@
 	padding-top:  56.25%;
  }
 
+
+ .cs-banner-video { 
+  grid-column: 1 / 7;
+
+  }
+
+ .helix-video { 
+  width:  100%;
+  height:  auto;
+ }
+
+
+
  /* 
 }
 -----------------------Arivale------------------------ */
