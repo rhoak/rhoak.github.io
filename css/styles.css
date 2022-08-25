@@ -37,6 +37,7 @@ header {
  }
 
 main { 
+	min-height: 100%;
  }
 
 footer { 
