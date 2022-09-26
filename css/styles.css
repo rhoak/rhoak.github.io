@@ -63,27 +63,22 @@ nav {
 	float: right;
 	font-family: 'Work Sans', sans-serif;
 	display: flex;
-	width: 50%;	
+	width: 40%;	
 	margin-right: 3%;
 }
 
 nav a { 
-	line-height: 45px;
+	line-height: 60px;
 	font-size: 1em;
-	font-weight: 300;
+	font-weight: 500;
 	text-align: center;	
 	flex: auto;
-	border-right: 1px solid #000;
 	background: transparent;
 	-webkit-transition: all .7s;
  }
 
 nav a:hover{ 
-/*	color: #fff;*/
-/*	background-image: linear-gradient(rgba(177,153,249, 1) 0%, rgba(177,153,249,.6) 100%);*/
-/*background-image: linear-gradient(150deg, #E60DDC 0%, #B199F9 100%);*/
-/*background-image: linear-gradient(10deg, rgba(0,0,0, 0) 50%, rgba(0,0,0,.1) 100%);*/
-	line-height: 60px;
+	line-height: 70px;
 	text-decoration: overline;
 }
 
@@ -93,8 +88,8 @@ nav a:hover{
 }
 
 .logo-container img { 
-	height: 30px;
-	margin-top: 12px;
+	height: 20px;
+	margin-top: 20px;
 	float: left;
  }
 
@@ -118,7 +113,7 @@ nav a:hover{
 .words { 
 	position: absolute;
 	z-index:  5;
-	top: 30%;
+	top: 35%;
 	left: 22%;
 	right: 22%;
 }
@@ -130,17 +125,18 @@ nav a:hover{
 
 .words h1 { 
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 200;
+	font-weight: 500;
 	line-height: 1.3em;
-	font-size: 3em;
+	font-size: 2.6em;
+	text-transform: uppercase;
 }
 
 .words p { 
 	font-family: 'Cormorant', serif;
 	font-size: 1.7em;
 	font-weight: 300;
-	line-height: 1.6em;
-	padding-top: 20px;
+	line-height: 1.3em;
+	padding-top: 12px;
 }
 
 
@@ -157,8 +153,8 @@ nav a:hover{
   width: 100%;
   position: absolute;
   left: 0;
-  top: 56%;
-  border-bottom: 2px solid rgba(0,0,0,0.8);
+  top: 45%;
+  border-bottom: 3px solid rgba(177,165,248,1);
   -webkit-animation-name: slash;
   -webkit-animation-duration: 3s;
   -webkit-transition: 0.5s ease;
@@ -178,6 +174,7 @@ nav a:hover{
 }
 
 .people { 
+	color:  #B1A5F8;
 	-webkit-animation-name: people;
   -webkit-animation-duration: 6s;
 }
@@ -223,7 +220,7 @@ nav a:hover{
 
 .portfolio-container { 
 	display: grid;
-	grid-template-columns:  1fr 1fr 1fr 1fr;
+	grid-template-columns:  1fr 1fr 1fr;
 	grid-gap: 30px;
 	flex-direction: row;
 	margin: 0 3% 0 3%;
@@ -237,10 +234,11 @@ nav a:hover{
 }
 
 .portfolio-image { 
-	height: 240px;
+	height: 300px;
 	background-size: cover;
 	background-repeat: no-repeat;
-  background-position: center
+  background-position: center;
+  -webkit-transition: .6s ease;
 }
 
 .p-case { 
@@ -268,7 +266,7 @@ nav a:hover{
 .p-name { 
 	font-family: 'Cormorant', serif;
 	font-size: 1.3em;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 1.2em;
 	padding: 14px 0;
  }
@@ -423,87 +421,92 @@ nav a:hover{
  /* 
 -------------------------------------------------- */
 
-@media (max-width: 1000px) {
-  .portfolio-container {
-    grid-template-columns: 1fr 1fr 1fr;
+@media (max-width: 1040px) {
+  .words { 
+  	left: 18%;
+		right: 18%;
   }
  }
 
-@media (max-width: 925px) {
+
+@media (max-width: 950px) {
   .words { 
   	left: 15%;
 		right: 15%;
   }
- }
-
-@media (max-width: 800px) {
   nav {
   	width: 60%;
   }
   .portfolio-container {
     grid-template-columns: 1fr 1fr;
   }
-  .words { 
-  	top:  20%;
-  }
  }
 
- @media (max-width: 640px) {
+
+ @media (max-width: 830px) {
  .words { 
   	left: 10%;
 		right: 10%;
-		top: 18%;
 	}
-	.words p { 
-	 	font-size: 1.6em;
-	 }
  }
 
- @media (max-width: 550px) {
+  @media (max-width: 768px) {
+  .words h1 { 
+ 		font-size:  2.3em;
+	}
+ .words p { 
+ 		font-size:  1.6em;
+	}
+ }
+
+
+ @media (max-width: 640px) {
  .words { 
-  	left: 5%;
-		right: 5%;
-		top: 15%;
-	}
- }
-
-@media (max-width: 425px) {
-  nav {
-  	width: 70%;
-  }
-
-  nav {
-  	margin-right: 0px;
-  }
-
-	.logo-container img { 
-		margin-top: 10px;
-		height: 26px;
-	}
- 	.words { 
-  	left: 5%;
+ 	  left: 5%;
 		right: 5%;
 	}
 	.words h1 { 
-		font-size: 2.8em;
+	 	font-size: 2.4em;
 	 }
 	 .words p { 
-	 		font-size: 1.5em;
-	  }
+	 	font-size: 1.6em;
+	 }
   .portfolio-container {
     grid-template-columns: 1fr;
   }
-}
+ }
 
-@media (max-width: 360px) {
+ @media (max-width: 520px) {
+ .words { 
+		top: 28%;
+	}
 	.words h1 { 
-		font-size: 2.5em;
+		font-size: 2.4em;
 	 }
  }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
+	nav a{ 
+		font-size:  .9em;
+	 }	
+	.words { 
+			top:  20%;
+	 }
 	.words h1 { 
-		font-size: 2.3em;
+		font-size: 2.2em;
+	 }
+  nav {
+  	margin-right: 0px;
+  }
+}
+
+
+@media (max-width: 320px) {
+	nav a{ 
+		font-size:  .8em;
+	 }
+	.words h1 { 
+		font-size: 2em;
 	 }
 	 .words p { 
 	 		font-size: 1.4em;
