@@ -185,6 +185,30 @@
 
  /* 
 }
+----------------------Social Inbox---------------------------- */
+
+.inbox-banner { 
+	background-image: url(../img/social-inbox-banner.png);
+ }
+
+ .social-inbox-ur{ 
+	background-image: url(../img/competitive-analysis.png);
+	padding-top: 42.27%;
+  }
+
+ .spreadsheet{ 
+	background-image: url(../img/spreadsheets.png);
+	padding-top: 39.90%;
+  }
+
+
+.social-user-journey {
+	background-image: url(../img/user-journey.png);
+	padding-top:  30.78%;
+}
+
+ /* 
+}
 ----------------------Storefronts---------------------------- */
 
  .storefronts-banner { 

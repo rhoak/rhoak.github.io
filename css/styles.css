@@ -293,6 +293,14 @@ nav a:hover{
  /* 
 -------------------------------------------------- */
 
+.sinbox { 
+	background-image: url(../img/social-inbox-1.png);
+}
+
+.sinbox:hover { 
+	background-image: url(../img/social-inbox-2.png);
+}
+
 .case-study-1 { 
 	background-image: url(../img/profile-pic-1.png);
 }
