@@ -10,9 +10,12 @@
   <meta name="description" content="Product designer with a human-centered approach. Using observation and research to craft and cultivate designs for people.">
   <meta name="author" content="Rachael Hoak">
 
-  <link rel="icon" type="img/png" href="img/favicon.png" />
+  <link rel="icon" type="image/png" href="img/favicon-rh.png" />
+  <link rel="icon" type="image/svg+xml" href="img/favicon-rh.svg" />
 
   <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -20,18 +23,15 @@
 
 <body>
   
-  <header>
-    <div class="logo-container">
-      <a href="index.html">
-        <img src="img/rh-logo-dot-2.png" alt="logo" />
-      </a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Rachael Hoak, home"><span class="logo" aria-hidden="true">R<span class="logo-dot"></span>H<span class="logo-o"></span>AK</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="about.html">About</a>
+        <a class="btn" href="mailto:rachaelhoak@gmail.com">Contact</a>
+      </nav>
     </div>
-
-    <nav>
-      <a href="index.html">home</a> 
-      <a href="#work">work</a> 
-      <a href="about.html">about me</a> 
-    </nav> 
   </header>
  
 
@@ -40,88 +40,87 @@
  
   <div class="intro">    
     <div class="words">
-      <h1>Design for <span class="user">users</span> <span class="people">people</span></h1>
+      <h1>Design for<br><span class="user">users</span> <span class="people">people</span></h1>
       <p>Good design comes from an understanding of human behavior. My name is Rachael. I conceptualize and create digital products, craft visuals and tell stories.</p>
     </div>
   </div>
 
-    <div class="portfolio-container" id="work">
-
-        <div class="portfolio-item" onclick="window.open('socialinbox.html','mywindow');" style="cursor: pointer;">
-        <div class="portfolio-image sinbox"></div>
-        <div class="p-case">Case Study</div>
-        <div class="p-name">Redesigning a social media monitoring tool in a CRM platform.</div>
-        <a href="socialinbox.html" class="p-link">Learn more</a> 
-        <div class="under-bar"></div>
-      </div>
-      
-      <div class="portfolio-item" onclick="window.open('storefronts.html','mywindow');" style="cursor: pointer;">
-        <div class="portfolio-image storefront"></div>
-<!--         <div class="p-type">SevenFifty · 2021-2020</div> -->
-        <div class="p-case">Case Study</div>
-        <div class="p-name">Designing a content management system for the beverage alcohol industry.</div>
-        <a href="storefronts.html" class="p-link">Learn more</a> 
-        <div class="under-bar"></div>
-      </div>
-
-      <div class="portfolio-item" onclick="window.open('buyer.html','mywindow');" style="cursor: pointer;">
-        <div class="portfolio-image buyer"></div>
-<!--         <div class="p-type">SevenFifty · 2019-2020</div> -->
-        <div class="p-case">Case Study</div>
-        <div class="p-name">Optimizing the Buyer's cart for an aggregated market.</div>
-        <a href="buyer.html" class="p-link">Learn more</a> 
-        <div class="under-bar"></div>
-      </div>
-
-      <div class="portfolio-item" onclick="window.open('helix.html','mywindow');" style="cursor: pointer;">
-        <div class="portfolio-image helix"></div>
-<!--         <div class="p-type">Arivale · 2018</div> -->
-        <div class="p-case">Case Study</div>
-        <div class="p-name">A lead generating product for a wellness company.</div>
-        <a href="helix.html" class="p-link">Learn more</a> 
-        <div class="under-bar"></div>
-      </div>
-
-      <div class="portfolio-item" onclick="window.open('arivale.html','mywindow');" style="cursor: pointer;">
-        <div class="portfolio-image arivale"></div>
-<!--         <div class="p-type">Arivale · 2017-2018</div> -->
-        <div class="p-case">Case Study</div>
-        <div class="p-name">Finding the value proposition through a redesign.</div>
-        <a href="arivale.html" class="p-link">Learn more</a> 
-        <div class="under-bar"></div>
-      </div>
-
-
-      <div class="portfolio-item">
-        <div class="portfolio-image jobboard"></div>
-<!--         <div class="p-type">SevenFifty · 2020</div> -->
-        <div class="p-name">A job board for professionals in the alcohol beverage industry. </div>
-      </div>
-<!--
-     <div class="portfolio-item">
-        <div class="portfolio-image makeupdate"></div>
-        <div class="p-name">Splash pages for Bloomingdales' promotional launches.</div>
-      </div> 
-
-      <div class="portfolio-item">
-        <div class="portfolio-image kikiriki"></div>
-        <div class="p-name">Virtual lookbooks for summer and fall.</div>
+    <section class="work" id="work" aria-label="Case studies">
+      <div class="projects">
+        <a class="project" href="data-home.html">
+          <div class="project-media is-bleed" style="--tint:#ffe9e3; --zoom: 1.2"><div class="swap"><img src="img/data-home-1.png" alt="" fetchpriority="high"><img src="img/data-home-2.png" alt="" loading="lazy" decoding="async"></div></div>
+          <div class="project-info">
+            <span class="eyebrow">HubSpot &middot; 2025–2026</span>
+            <h3>Turning scattered imports and syncs into a data home.</h3>
+            <span class="link">Read case study <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+        <a class="project" href="socialinbox.html">
+          <div class="project-media is-bleed" style="--tint:#e2edd5; --zoom: 1.25"><div class="swap"><img src="img/new-social-inbox-1a.png" alt="" loading="lazy" decoding="async"><img src="img/new-social-inbox-2a.png" alt="" loading="lazy" decoding="async"></div></div>
+          <div class="project-info">
+            <span class="eyebrow">HubSpot &middot; 2023–2024</span>
+            <h3>Redesigning a social media monitoring tool in a CRM platform.</h3>
+            <span class="link">Read case study <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+        <a class="project" href="storefronts.html">
+          <div class="project-media is-bleed" style="--tint:#d9f5f0; --zoom: 1"><div class="swap"><img src="img/sevenfifty-CMS-1a.png" alt="" loading="lazy" decoding="async"><img src="img/sevenfifty-CMS-2a.png" alt="" loading="lazy" decoding="async"></div></div>
+          <div class="project-info">
+            <span class="eyebrow">SevenFifty &middot; 2020–2021</span>
+            <h3>Designing a content management system for the beverage alcohol industry.</h3>
+            <span class="link">Read case study <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+        <a class="project" href="buyer.html">
+          <div class="project-media is-bleed" style="--tint:#e4dbea; --zoom: 1"><div class="swap"><img src="img/sevenfifty-cart-1b.png" alt="" loading="lazy" decoding="async"></div></div>
+          <div class="project-info">
+            <span class="eyebrow">SevenFifty &middot; 2019–2020</span>
+            <h3>Optimizing the Buyer&rsquo;s cart for an aggregated market.</h3>
+            <span class="link">Read case study <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+        <a class="project" href="helix.html">
+          <div class="project-media" style="--tint:#ddefff"><div class="swap"><img src="img/helix-timg-1-nobg.png" alt="" loading="lazy" decoding="async"><img src="img/helix-timg-2-nobg.png" alt="" loading="lazy" decoding="async"></div></div>
+          <div class="project-info">
+            <span class="eyebrow">Arivale &middot; 2018</span>
+            <h3>A lead generating product for a wellness company.</h3>
+            <span class="link">Read case study <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+        <a class="project" href="arivale.html">
+          <div class="project-media" style="--tint:#faf6c8"><div class="swap"><img src="img/arivale-timg-1-nobg.png" alt="" loading="lazy" decoding="async"><img src="img/arivale-timg-2-nobg.png" alt="" loading="lazy" decoding="async"></div></div>
+          <div class="project-info">
+            <span class="eyebrow">Arivale &middot; 2017–2018</span>
+            <h3>Finding the value proposition through a redesign.</h3>
+            <span class="link">Read case study <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
       </div>
 
-     <div class="portfolio-item">
-        <div class="portfolio-image asteroid"></div>
-        <div class="p-name">Visualization of resource mining from asteroids.</div>
-      </div>
-    --> 
-    
-    </div>
+    </section>
 
-  
   </main>
 
-  <footer>
-    <div class="footer">
-<!-- Copyright &copy; 2021 Rachael Hoak. All rights reserved.-->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2 class="display">Let&rsquo;s talk about design</h2>
+      <p>Want the full, unedited case studies or to chat about process? I&rsquo;d love to hear from you.</p>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:rachaelhoak@gmail.com">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/rachaelhoak/" target="_blank" rel="noopener">LinkedIn <svg class="arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="wrap">
+      <span class="wordmark">Rachael Hoak</span>
+      <nav aria-label="Footer">
+        <a href="index.html#work">Work</a>
+        <a href="about.html">About</a>
+        <a href="https://www.linkedin.com/in/rachaelhoak/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:rachaelhoak@gmail.com">Email</a>
+      </nav>
+      <span>&copy; <span id="year">2026</span> &middot; Designed for people</span>
     </div>
   </footer>
 

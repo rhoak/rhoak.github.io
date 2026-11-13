@@ -10,133 +10,108 @@
   <meta name="description" content="Case Study of launching a wellness product.">
   <meta name="author" content="Rachael Hoak">
 
-  <link rel="icon" type="img/png" href="img/favicon.png" />
+  <link rel="icon" type="image/png" href="img/favicon-rh.png" />
+  <link rel="icon" type="image/svg+xml" href="img/favicon-rh.svg" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
-  <link rel="stylesheet" href="css/styles-work.css?v=1.0">
+  <link rel="stylesheet" href="css/case-study.css?v=1.0">
 </head>
 
 
 <body>
-  <header>
-
-    <div class="logo-container">
-      <a href="index.html">
-        <img src="img/rh-logo-dot-2.png" alt="logo" />
-      </a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Rachael Hoak, home"><span class="logo" aria-hidden="true">R<span class="logo-dot"></span>H<span class="logo-o"></span>AK</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="about.html">About</a>
+        <a class="btn" href="mailto:rachaelhoak@gmail.com">Contact</a>
+      </nav>
     </div>
-
-    <nav>
-      <a href="index.html">home</a> 
-      <a href="index.html#work">work</a> 
-      <a href="about.html">about me</a> 
-
-    </nav> 
   </header>
  
 
 
-  <main>
-    <div class="cs-container">
-      
-      <div class="cs-banner-video">
-        <video id="helix-video" width="100%" autoplay loop muted poster="">
-        <source src="img/helix-banner-video.mp4" type="video/mp4">
-        </video>
-      </div>
-      
-      <div class="cs-title"> 
-        <h1>A Lead Generating Product for a Wellness Company</h1>
-        <h2>Case Study of launching a wellness product</h2>
-      </div>
-
-      <div class="cs-body">
-        <h3>The Problem</h3>
-        <p>A health and wellness company that developed lifestyle plans based on a person's genome, blood markers, stress hormones, and gut microbiome had a very expensive price point of $3,000 with a commitment of one year. The company was looking for different strategies to help nurture individuals into the 1 years flagship program. 
-        </p>
-      </div>
-
-      <div class="cs-body">
-        <h3>The Solution</h3>
-        <p>A “light” version of the company's program with a limited amount of genetic data and one coaching session at the price point of $50.</p>
-      </div>
-
-
-      <div class="cs-body">
-        <h3>The Team</h3>
-        <ul>
-          <li>A coaching &amp; scientific team </li>
-          <li>2 project managers</li>
-          <li>3 dev</li>
-          <li>2 UI designers</li>
-          <li>1 senior product designer 👋 </li>
-        </ul>
-      </div>
-
-     <div class="cs-body process">
-        <h3>My Role</h3>
-        <div class="process-container">
-          <div class="list-process">
-            <h5>User research</h5>
-            <ul>
-              <li>User journey</li>
-              <li>User flows</li>
-              <li>User interviews</li>
-            </ul>
-          </div>
-          <div class="list-process">        
-            <h5>Designing</h5>
-            <ul>
-              <li>High-fidelity mockups</li>
-              <li>Prototyping</li>
-            </ul>
-          </div>
-        </div> <!-- list process -->
-      </div> <!-- end of process -->
-
-      <div class="cs-body">
-        <h3>Discovery & User Research</h3>
-        <p>While the company's main program consisted of blood testing, which required the customer to schedule with a clinical laboratory for an intravenous blood draw, this new product used saliva and could be collected at home. This change dramatically simplified the user's journey.
-        </p>
-        <h5>User Journey</h5> 
-        <p>
-        The saliva kits would be delivered to the customer, the customer would then set up their online dashboard, they would send the kit back, wait for results, get an email when the results were processed, and finally schedule a call with a coach.
-        </p>   
-      </div> <!-- end of UR -->
-
-      <div class="cs-image-sm helix-pre-launch"></div>
-
-      <div class="cs-body">
-        <h3>Designing & Ideation</h3>
-        <p>After mapping out the user journey, it was clear this new program had a lot of <em>unknown time periods</em> between each important stage. We had no idea how long it would take for people to send kits back and only a rough estimate for DNA processing.
-        </p>
-        <h5>Designing for Different States</h5> 
-        <p>
-        The dashboard required 3 important state changes— before genetic data, after genetic data was processed, and after the coaching call. The most important state would be the empty state before a person received their data and to make the dashboard come to life when data was ingested. 
-        </p>   
-      </div> <!-- end of UR -->
-
-     <div class="cs-image-sm helix-flow"></div> 
-
-     <div class="cs-body">
-      <h3>Get the full story...</h3>
-        <p>Learn how this dashboard came together and some meaningful conclusions post launch—
-        <br>
-        <br>
-        For a full unedited version of <em>this case study</em> reach out <a href="mailto:rachaelhoak@gmail.com" class="link-email">here.</a> 
-        </p>
+  <main id="main" class="cs-page">
+    <div class="wrap cs-head">
+      <a class="back" href="index.html#work"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M8.5 3L4.5 7L8.5 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> All work</a>
+      <div class="eyebrow">Arivale × Helix &middot; 2018 &middot; Case study</div>
+      <h1 class="display">A lead-generating product for a wellness company</h1>
+      <p class="lede">A “light” version of a genome-based wellness program, with limited genetic data and one coaching session for $50, designed to nurture people toward the flagship.</p>
+      <dl class="cs-meta">
+        <div><dt>Company</dt><dd>Arivale × Helix</dd></div>
+        <div><dt>Timeline</dt><dd>2018</dd></div>
+        <div><dt>My role</dt><dd>Senior Product Designer</dd></div>
+        <div><dt>Focus</dt><dd>Health · Growth · Dashboard states</dd></div>
+      </dl>
     </div>
 
+    <div class="cs-hero-wrap">
+      <div class="cs-hero" style="--tint:#ddefff"><video autoplay loop muted playsinline poster="img/helix-frontpage.png" aria-label="The Arivale heart genetics report on desktop and mobile"><source src="img/helix-banner-video.mp4" type="video/mp4"></video></div>
     </div>
+
+    <div class="wrap cs-body">
+      <aside class="toc" aria-label="On this page">
+        <p>On this page</p>
+        <ol><li><a href="#overview">Overview</a></li><li><a href="#role">Team &amp; role</a></li><li><a href="#discovery">Discovery &amp; research</a></li><li><a href="#design">User flow</a></li><li><a class="is-locked" href="#full-story">Information architecture<span class="visually-hidden"> (in the full case study)</span></a></li><li><a class="is-locked" href="#full-story">Design system<span class="visually-hidden"> (in the full case study)</span></a></li><li><a class="is-locked" href="#full-story">Early learnings<span class="visually-hidden"> (in the full case study)</span></a></li><li><a class="is-locked" href="#full-story">Post-launch research<span class="visually-hidden"> (in the full case study)</span></a></li><li><a class="is-locked" href="#full-story">Iterations<span class="visually-hidden"> (in the full case study)</span></a></li><li><a class="is-locked" href="#full-story">Key takeaways<span class="visually-hidden"> (in the full case study)</span></a></li></ol>
+      </aside>
+
+      <article class="prose">
+        <section id="overview">
+          <h2>The problem</h2>
+          <p>A health and wellness company developed lifestyle plans based on a person&rsquo;s genome, blood markers, stress hormones and gut microbiome. The program cost $3,000 with a one-year commitment.</p><p>The company was looking for strategies to nurture people into the flagship program.</p>
+          <blockquote class="callout"><span class="label">The solution</span>A “light” version of the program with a limited set of genetic data and one coaching session, at a price point of $50.</blockquote>
+        </section>
+
+        <section id="role">
+          <h2>Team &amp; role</h2>
+          <div class="card" style="margin-bottom:16px"><h4>The team</h4><ul><li>A coaching &amp; scientific team</li><li>2 project managers</li><li>3 dev</li><li>2 UI designers</li><li>1 senior product designer 👋</li></ul></div>
+          <div class="split"><div class="card"><h4>User research</h4><ul><li>User journey</li><li>User flows</li><li>User interviews</li></ul></div><div class="card"><h4>Designing</h4><ul><li>High-fidelity mockups</li><li>Prototyping</li></ul></div></div>
+        </section>
+
+        <section id="discovery">
+          <h2>Discovery &amp; research</h2>
+          <p>The main program required a blood draw scheduled at a clinical lab. This new product used saliva collected at home, a change that dramatically simplified the journey.</p>
+          <h3>User journey</h3>
+          <p>Kits are delivered, the customer sets up their online dashboard, sends the kit back, waits for results, gets an email when results are processed, and finally schedules a call with a coach.</p>
+          <figure class="figure reveal"><a class="frame" href="img/helix-pre-launch.jpg" target="_blank" rel="noopener" aria-label="Open full-size image: The at-home kit journey, from delivery to coaching call"><img src="img/helix-pre-launch.jpg" alt="The at-home kit journey, from delivery to coaching call" loading="lazy" decoding="async"></a><figcaption><span>The at-home kit journey, from delivery to coaching call</span><span>Click to enlarge</span></figcaption></figure>
+        </section>
+        <section id="design">
+          <h2>User flow</h2>
+          <p>Mapping the journey revealed a lot of <em>unknown time</em> between stages. We had no idea how long people would take to return kits, and only a rough estimate for DNA processing.</p>
+          <h3>Dashboard states</h3>
+          <p>The dashboard needed three key states: before genetic data, after data was processed, and after the coaching call. The most important was the empty state (keeping people engaged while they waited) and then making the dashboard come alive when data arrived.</p>
+          <figure class="figure reveal"><a class="frame" href="img/helix-user-flow.png" target="_blank" rel="noopener" aria-label="Open full-size image: Dashboard states across the customer journey"><img src="img/helix-user-flow.png" alt="Dashboard states across the customer journey" loading="lazy" decoding="async"></a><figcaption><span>Dashboard states across the customer journey</span><span>Click to enlarge</span></figcaption></figure>
+        </section>
+
+        <section id="full-story">
+          <div class="cta-card">
+            <div>
+              <h2>Get the full story</h2>
+              <p>Learn how this dashboard came together and some meaningful conclusions after launch. The full, unedited case study is available on request.</p>
+            </div>
+            <a class="btn" href="mailto:rachaelhoak@gmail.com?subject=A lead-generating product for a wellness company%20(full%20case%20study)">Request it <svg class="arrow" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+          </div>
+        </section>
+      </article>
+    </div>
+
   </main>
 
-  <footer>
-    <div class="footer">
-<!--     Copyright &copy; 2021 Rachael Hoak. All rights reserved.
- -->    </div>
+  <footer class="site-footer">
+    <div class="wrap">
+      <span class="wordmark">Rachael Hoak</span>
+      <nav aria-label="Footer">
+        <a href="index.html#work">Work</a>
+        <a href="about.html">About</a>
+        <a href="https://www.linkedin.com/in/rachaelhoak/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:rachaelhoak@gmail.com">Email</a>
+      </nav>
+      <span>&copy; <span id="year">2026</span> &middot; Designed for people</span>
+    </div>
   </footer>
 
   <script src="js/scripts.js"></script>

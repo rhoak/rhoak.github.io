@@ -10,9 +10,10 @@
   <meta name="description" content="Product designer with a human-centered approach. Using observation and research to craft and cultivate designs for people.">
   <meta name="author" content="Rachael Hoak">
 
-  <link rel="icon" type="img/png" href="img/favicon.png" />
+  <link rel="icon" type="image/png" href="img/favicon-rh.png" />
+  <link rel="icon" type="image/svg+xml" href="img/favicon-rh.svg" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -21,57 +22,54 @@
 
 
 <body>
-  <header>
-
-    <div class="logo-container">
-      <a href="index.html">
-        <img src="img/rh-logo-dot-2.png" alt="logo" />
-      </a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Rachael Hoak, home"><span class="logo" aria-hidden="true">R<span class="logo-dot"></span>H<span class="logo-o"></span>AK</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="about.html" aria-current="page">About</a>
+        <a class="btn" href="mailto:rachaelhoak@gmail.com">Contact</a>
+      </nav>
     </div>
-    
-    <nav>
-      <a href="index.html">home</a> 
-      <a href="index.html#work">work</a> 
-      <a href="about.html">about me</a> 
-    </nav> 
   </header>
  
 
-  <main>
-    <div class="cs-container">    
+  <main class="about-page">
+    <section class="page-hero">
+      <h1>The bit about <span class="serif">myself</span></h1>
+    </section>
 
-      <div class="cs-body">
-        <h3>The bit about myself</h3>
+    <div class="about-grid">
+      <p class="big">I view design as a means to understand people; a practice of communication.</p>
+      <div class="prose">
+        <p>Every user is a human being, every use case is a need, and every data point represents a person that has interacted with my design.</p>
+        <p>I’ve worked in industries ranging from genetics to news media to alcoholic beverage sales. When colleagues and I interrogate assumptions, reflect on outliers, and entertain new perspectives, it results in stronger design, stronger teams, and a better experience for the people that use the tools we make.</p>
+        <p>See the companies I have worked with on <a href="https://www.linkedin.com/in/rachaelhoak/">LinkedIn.</a></p>
+        <p>Read one of my case studies, learn more about my process, or chat about design by reaching out here. <a href="mailto:rachaelhoak@gmail.com">here.</a></p>
       </div>
-      <div class="cs-body">
-        <p>I view design as a means to understand people; a practice of communication.
-        </p>
-      </div>
-      <div class="cs-body">      
-        <p>
-        Every user is a human being, every use case is a need, and every data point represents a person that has interacted with my design.
-        </p>
-      </div>
-      <div class="cs-body">   
-        <p>
-      I’ve worked in industries ranging from genetics to news media to alcoholic beverage sales. When colleagues and I interrogate assumptions, reflect on outliers, and entertain new perspectives, it results in stronger design, stronger teams, and a better experience for the people that use the tools we make.
-        </p>
-      </div>
-
-      <div class="cs-body">
-        <p>See the companies I have worked with on <a href="https://www.linkedin.com/in/rachaelhoak/" class="link-email">LinkedIn.</a> </p>
-      </div>
-
-      <div class="cs-body">
-        <p>Read one of my case studies, learn more about my process, or chat about design by reaching out here. <a href="mailto:rachaelhoak@gmail.com" class="link-email">here.</a> </p>
-      </div>
-
     </div>
   </main>
 
-  <footer>
-    <div class="footer">
-<!--     Copyright &copy; 2021 Rachael Hoak. All rights reserved. -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2 class="display">Let&rsquo;s talk about design</h2>
+      <p>Want the full, unedited case studies or to chat about process? I&rsquo;d love to hear from you.</p>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:rachaelhoak@gmail.com">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/rachaelhoak/" target="_blank" rel="noopener">LinkedIn <svg class="arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="wrap">
+      <span class="wordmark">Rachael Hoak</span>
+      <nav aria-label="Footer">
+        <a href="index.html#work">Work</a>
+        <a href="about.html">About</a>
+        <a href="https://www.linkedin.com/in/rachaelhoak/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:rachaelhoak@gmail.com">Email</a>
+      </nav>
+      <span>&copy; <span id="year">2026</span> &middot; Designed for people</span>
     </div>
   </footer>
 
